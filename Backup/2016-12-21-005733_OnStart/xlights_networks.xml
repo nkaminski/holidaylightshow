@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Networks computer="bedroom-linux">
+  <network NetworkType="NULL" MaxChannels="20" Description=""/>
+</Networks>
