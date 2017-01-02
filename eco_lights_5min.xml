@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1">
+  <head>
+    <version>2016.54</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>300</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_TEXTCTRL_Eff_On_End=50,E_TEXTCTRL_Eff_On_Start=50</Effect>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="LR Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="R Window" visible="1"/>
+    <Element collapsed="0" type="model" name="Main" visible="1"/>
+    <Element collapsed="0" type="model" name="Pathway" visible="1"/>
+    <Element collapsed="0" type="model" name="Deer" visible="1"/>
+    <Element collapsed="0" type="model" name="L Window" visible="1"/>
+    <Element collapsed="0" type="model" name="Lower Specials" visible="1"/>
+    <Element collapsed="0" type="model" name="Upper Gutters" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer>
+        <Effect label="" startTime="0" endTime="0"></Effect>
+        <Effect label="" startTime="0" endTime="300900"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="LR Windows">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="300900" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="R Window">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Main">
+      <EffectLayer/>
+      <Strand index="0">
+        <Node index="0">
+          <Effect ref="1" name="On" startTime="0" endTime="300900" palette="0"/>
+        </Node>
+        <Node index="1">
+          <Effect ref="0" name="On" startTime="0" endTime="300900" palette="0"/>
+        </Node>
+        <Node index="2">
+          <Effect ref="1" name="On" startTime="0" endTime="300900" palette="0"/>
+        </Node>
+        <Node index="3">
+          <Effect ref="1" name="On" selected="1" startTime="0" endTime="300900" palette="0"/>
+        </Node>
+      </Strand>
+    </Element>
+    <Element type="model" name="Pathway">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="300900" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Deer">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="300900" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="L Window">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Lower Specials">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Upper Gutters">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+</xsequence>
