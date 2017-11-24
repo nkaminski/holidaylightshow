@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="4" parm2="1" StringType="Single Color White" PixelSize="10" name="Indoor" X1="0.457031" Y1="0.227778" X2="0.495313" Y2="0.048611" versionNumber="1" StartChannel="36"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" StringType="Single Color White" parm1="2" parm2="1" PixelSize="50" name="R Window" X1="0.323438" Y1="0.926389" X2="0.323438" Y2="0.701389" versionNumber="1" StartChannel="19"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="4" parm2="1" StringType="Single Color White" name="Main" PixelSize="30" X1="0.048437" Y1="0.481944" X2="0.811719" Y2="0.473611" versionNumber="1" StartChannel="1"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm2="1" parm1="8" CustomColor="#ffff00" PixelSize="10" name="Pathway" StringType="Single Color White" X1="0.446875" Y1="0.926389" X2="0.682031" Y2="0.572222" versionNumber="1" StartChannel="9"/>
-    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" StringType="Single Color White" PixelSize="20" name="Deer" parm1="4" parm2="1" Dir="L" X1="0.325782" Y1="0.595833" X2="0.518751" Y2="0.595833" versionNumber="1" StartChannel="5"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" StringType="Single Color White" PixelSize="50" name="L Window" X1="0.262500" Y1="0.927778" X2="0.262500" Y2="0.701389" versionNumber="1" StartChannel="17"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" PixelSize="20" StringType="Single Color White" name="Lower Specials" X1="0.077343" Y1="0.548611" X2="0.077343" Y2="0.691666" versionNumber="1" StartChannel="1"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" StringType="Single Color White" PixelSize="20" name="Upper Gutters" X1="0.550000" Y1="0.938889" X2="0.689844" Y2="0.938889" versionNumber="1" StartChannel="3"/>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" PixelSize="30" name="Floods" X1="0.316406" Y1="0.094444" X2="0.628125" Y2="0.094444" versionNumber="1" StartChannel="30"/>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" StringType="Single Color White" PixelSize="30" parm2="1" parm1="2" name="Front Door" X1="0.298438" Y1="0.595833" X2="0.410156" Y2="0.669444" versionNumber="1" StartChannel="3"/>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" StringType="Single Color White" PixelSize="20" name="Windows Bottom" X1="0.180469" Y1="0.616667" X2="0.278125" Y2="0.616667" versionNumber="1" StartChannel="33"/>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm3="1" LayoutGroup="Default" Antialias="0" PixelSize="30" parm1="2" parm2="1" StringType="Single Color White" name="Fronts" X1="-0.032812" Y1="0.155556" X2="0.484375" Y2="0.150000" versionNumber="1" StartChannel="1"/>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="6" parm2="1" StringType="Single Color White" PixelSize="20" name="Bush Line" X1="0.341406" Y1="0.536111" X2="0.594531" Y2="0.286112" versionNumber="1" StartChannel="11"/>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm3="1" LayoutGroup="Default" parm1="8" parm2="1" StringType="Single Color White" PixelSize="20" Antialias="2" name="Deer Line" X1="0.111718" Y1="0.274999" X2="0.440625" Y2="0.276389" versionNumber="1" StartChannel="17"/>
+    <model Transparency="0" parm3="1" name="Tree" LayoutGroup="Default" parm1="8" parm2="1" StringType="Single Color White" PixelSize="10" TreeRotation="1.000000" TreePerspective="1.000000" DisplayAs="Tree 360" Dir="L" StartSide="T" Antialias="2" offsetXpct="0.1929" offsetYpct="0.3472" PreviewScaleX="0.0719" PreviewScaleY="0.1583" PreviewRotation="0" versionNumber="1" StartChannel="25"/>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" PixelSize="20" StringType="Single Color White" name="Windows Top" X1="0.179688" Y1="0.683333" X2="0.278125" Y2="0.683333" versionNumber="1" StartChannel="&gt;Windows Bottom:1"/>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm3="1" LayoutGroup="Default" PixelSize="40" Antialias="0" StringType="Single Color White" parm1="4" parm2="1" name="Gutters" X1="0.131250" Y1="0.943056" X2="0.589063" Y2="0.943056" versionNumber="1" StartChannel="5"/>
   </models>
   <effects version="0006"/>
-  <palettes/>
   <views/>
+  <palettes/>
   <modelGroups>
-    <modelGroup selected="0" models="L Window,R Window" GridSize="10" layout="Horizontal Per Model/Strand" name="LR Windows" LayoutGroup="Default"/>
+    <modelGroup selected="0" name="Windows" models="Windows Top,Windows Bottom" GridSize="400" layout="vertical" LayoutGroup="Default"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">
@@ -25,4 +24,28 @@
     <previewWidth value="1280"/>
     <previewHeight value="720"/>
   </settings>
+  <colors>
+    <EffectDefault Red="192" Green="192" Blue="192"/>
+    <EffectSelected Red="204" Green="102" Blue="255"/>
+    <GridDashes Red="255" Green="255" Blue="0"/>
+    <Gridlines Red="40" Green="40" Blue="40"/>
+    <LabelOutline Red="103" Green="103" Blue="103"/>
+    <Labels Red="255" Green="255" Blue="204"/>
+    <LayoutDashes Red="255" Green="255" Blue="0"/>
+    <ModelDefault Red="211" Green="211" Blue="211"/>
+    <ModelOverlap Red="255" Green="0" Blue="0"/>
+    <ModelSelected Red="255" Green="255" Blue="0"/>
+    <Phonemes Red="255" Green="181" Blue="218"/>
+    <Phrases Red="153" Green="255" Blue="153"/>
+    <ReferenceEffect Red="255" Green="0" Blue="255"/>
+    <RowHeader Red="212" Green="208" Blue="200"/>
+    <RowHeaderSelected Red="130" Green="178" Blue="207"/>
+    <Timing1 Red="0" Green="255" Blue="255"/>
+    <Timing2 Red="255" Green="0" Blue="0"/>
+    <Timing3 Red="0" Green="255" Blue="0"/>
+    <Timing4 Red="0" Green="0" Blue="255"/>
+    <Timing5 Red="255" Green="255" Blue="0"/>
+    <TimingDefault Red="255" Green="255" Blue="255"/>
+    <Words Red="255" Green="218" Blue="145"/>
+  </colors>
 </xrgb>
