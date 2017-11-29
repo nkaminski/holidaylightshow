@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm2="1" parm1="2" PixelSize="50" CustomColor="#000000" StringType="Single Color White" name="Floods" X1="-0.175001" Y1="0.575000" X2="0.964062" Y2="0.537500" versionNumber="1" StartChannel="9"/>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" StringType="Single Color White" PixelSize="30" parm2="1" parm1="2" name="Front Door" X1="0.298438" Y1="0.595833" X2="0.410156" Y2="0.669444" versionNumber="1" StartChannel="3"/>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" StringType="Single Color White" PixelSize="20" name="Windows Bottom" X1="0.180469" Y1="0.616667" X2="0.278125" Y2="0.616667" versionNumber="1" StartChannel="33"/>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm3="1" LayoutGroup="Default" Antialias="0" PixelSize="30" parm1="2" parm2="1" StringType="Single Color White" name="Fronts" X1="-0.032812" Y1="0.155556" X2="0.484375" Y2="0.150000" versionNumber="1" StartChannel="1"/>
