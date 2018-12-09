@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2018.51</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>300</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="100ms" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="Floods" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Lower house" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush_Tree Line" visible="1"/>
+    <Element collapsed="0" type="model" name="MegaTree Star" visible="1"/>
+    <Element collapsed="0" type="model" name="MegaTree" visible="1"/>
+    <Element collapsed="0" type="model" name="Corner Bush" visible="1"/>
+    <Element collapsed="0" type="model" name="DeerLine" visible="1"/>
+    <Element collapsed="0" type="model" name="Front Walk" visible="1"/>
+    <Element collapsed="0" type="model" name="Upper Gutters" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="100ms" fixed="100">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Floods">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2800" endTime="8800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="294600" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="294600" endTime="300000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Lower house">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2800" endTime="8800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="294600" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="294600" endTime="300000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bush_Tree Line">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2800" endTime="8800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="294600" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="294600" endTime="300000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="MegaTree Star">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2800" endTime="8800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="294600" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="294600" endTime="300000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="MegaTree">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2800" endTime="8800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="294600" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="294600" endTime="300000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Corner Bush">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2800" endTime="8800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="294600" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="294600" endTime="300000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="DeerLine">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2800" endTime="8800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="294600" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="294600" endTime="300000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Walk">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2800" endTime="8800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="294600" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="294600" endTime="300000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Upper Gutters">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2800" endTime="8800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="294600" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="294600" endTime="300000" palette="0"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

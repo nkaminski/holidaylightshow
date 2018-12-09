@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm2="1" parm1="2" PixelSize="50" CustomColor="#000000" StringType="Single Color White" name="Floods" X1="-0.175001" Y1="0.575000" X2="0.964062" Y2="0.537500" versionNumber="1" StartChannel="9"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" StringType="Single Color White" PixelSize="30" parm2="1" parm1="2" name="Front Door" X1="0.298438" Y1="0.595833" X2="0.410156" Y2="0.669444" versionNumber="1" StartChannel="3"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" StringType="Single Color White" PixelSize="20" name="Windows Bottom" X1="0.180469" Y1="0.616667" X2="0.278125" Y2="0.616667" versionNumber="1" StartChannel="33"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm3="1" LayoutGroup="Default" Antialias="0" PixelSize="30" parm1="2" parm2="1" StringType="Single Color White" name="Fronts" X1="-0.032812" Y1="0.155556" X2="0.484375" Y2="0.150000" versionNumber="1" StartChannel="1"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="6" parm2="1" StringType="Single Color White" PixelSize="20" name="Bush Line" X1="0.341406" Y1="0.536111" X2="0.594531" Y2="0.286112" versionNumber="1" StartChannel="11"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm3="1" LayoutGroup="Default" parm1="8" parm2="1" StringType="Single Color White" PixelSize="20" Antialias="2" name="Deer Line" X1="0.111718" Y1="0.274999" X2="0.440625" Y2="0.276389" versionNumber="1" StartChannel="17"/>
-    <model Transparency="0" parm3="1" name="Tree" LayoutGroup="Default" parm1="8" parm2="1" StringType="Single Color White" PixelSize="10" TreeRotation="1.000000" TreePerspective="1.000000" DisplayAs="Tree 360" Dir="L" StartSide="T" Antialias="2" offsetXpct="0.1929" offsetYpct="0.3472" PreviewScaleX="0.0719" PreviewScaleY="0.1583" PreviewRotation="0" versionNumber="1" StartChannel="25"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" PixelSize="20" StringType="Single Color White" name="Windows Top" X1="0.179688" Y1="0.683333" X2="0.278125" Y2="0.683333" versionNumber="1" StartChannel="&gt;Windows Bottom:1"/>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm3="1" LayoutGroup="Default" PixelSize="40" Antialias="0" StringType="Single Color White" parm1="4" parm2="1" name="Gutters" X1="0.131250" Y1="0.943056" X2="0.589063" Y2="0.943056" versionNumber="1" StartChannel="5"/>
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" PixelSize="20" parm1="4" parm2="1" StringType="Single Color White" name="Windows" Dir="R" X1="0.217187" Y1="0.868055" X2="0.395312" Y2="0.868055" versionNumber="1" StartChannel="2:1">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" name="Right Flood" parm2="1" LayoutGroup="All Previews" PixelSize="100" Antialias="3" X1="0.774999" Y1="0.919444" X2="0.785937" Y2="0.925000" versionNumber="1" StartChannel="41">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" StringType="Single Color White" PixelSize="20" name="Lower house" Dir="R" Advanced="1" String1="2" String2="1" X1="0.608594" Y1="0.744444" X2="0.738281" Y2="0.744444" versionNumber="1" StartChannel="2">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" PixelSize="8" StringType="Single Color White" parm1="9" parm2="1" name="Bush_Tree Line" Dir="R" Advanced="1" String5="&gt;Upper Gutters:5" String1="&gt;Upper Gutters:9" String2="&gt;Upper Gutters:8" String3="&gt;Upper Gutters:7" String4="&gt;Upper Gutters:6" String6="&gt;Upper Gutters:4" String7="&gt;Upper Gutters:3" String8="&gt;Upper Gutters:2" String9="&gt;Upper Gutters:1" X1="0.491406" Y1="0.802778" X2="0.789844" Y2="0.386111" versionNumber="1" StartChannel="&gt;Upper Gutters:9">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Star" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="5" LayoutGroup="Default" name="MegaTree Star" StringType="Single Color White" offsetXpct="0.1813" offsetYpct="0.6847" PreviewScaleX="0.0516" PreviewScaleY="0.1056" PreviewRotation="0" versionNumber="1" StartChannel="&gt;Corner Bush:1">
+      <ControllerConnection/>
+    </model>
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="8" name="MegaTree" StringType="Single Color White" offsetXpct="0.1820" offsetYpct="0.4944" PreviewScaleX="0.1156" PreviewScaleY="0.2750" PreviewRotation="0" versionNumber="1" StartChannel="&gt;Corner Bush:2">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Circle" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="50" InsideOut="0" LayoutGroup="Default" name="Corner Bush" StringType="Single Color White" offsetXpct="0.0711" offsetYpct="0.2583" PreviewScaleX="0.0766" PreviewScaleY="0.1222" PreviewRotation="0" versionNumber="1" StartChannel="&gt;DeerLine:1">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" PixelSize="10" name="DeerLine" parm2="1" parm1="8" StringType="Single Color White" LayoutGroup="All Previews" Dir="L" Advanced="1" String1="&gt;Front Walk:8" String2="&gt;Front Walk:7" String3="&gt;Front Walk:6" String4="&gt;Front Walk:5" String5="&gt;Front Walk:4" String6="&gt;Front Walk:3" String7="&gt;Front Walk:2" String8="&gt;Front Walk:1" X1="0.277344" Y1="0.493056" X2="0.625781" Y2="0.493056" versionNumber="1" StartChannel="&gt;Front Walk:8">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="100" name="Front Walk" PixelSize="4" StringType="Single Color White" X1="0.820312" Y1="0.138889" X2="0.022656" Y2="0.138889" versionNumber="1" StartChannel="&gt;Bush_Tree Line:1">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" StringType="Single Color White" parm2="1" parm1="2" name="Upper Gutters" PixelSize="20" Dir="R" Advanced="1" String1="&gt;Lower house:2" String2="&gt;Lower house:1" X1="0.553125" Y1="0.868056" X2="0.754687" Y2="0.870833" versionNumber="1" StartChannel="&gt;Lower house:2">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Left Flood" parm2="1" PixelSize="100" Antialias="3" X1="0.033594" Y1="0.938889" X2="0.060156" Y2="0.894444" versionNumber="1" StartChannel="36">
+      <ControllerConnection/>
+    </model>
   </models>
   <effects version="0006"/>
   <views/>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="Windows" models="Windows Top,Windows Bottom" GridSize="400" layout="vertical" LayoutGroup="Default"/>
+    <modelGroup selected="0" name="Floods" models="Right Flood,Left Flood" GridSize="400" layout="minimalGrid" LayoutGroup="Default"/>
+    <modelGroup selected="0" name="All Yard" LayoutGroup="Default" models="Bush_Tree Line,DeerLine,MegaTree,MegaTree Star" GridSize="400" layout="minimalGrid"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">
@@ -28,6 +53,8 @@
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
     <EffectSelected Red="204" Green="102" Blue="255"/>
+    <EffectSelectedFixed Red="255" Green="128" Blue="0"/>
+    <EffectSelectedLocked Red="200" Green="0" Blue="0"/>
     <GridDashes Red="255" Green="255" Blue="0"/>
     <Gridlines Red="40" Green="40" Blue="40"/>
     <LabelOutline Red="103" Green="103" Blue="103"/>
@@ -39,7 +66,7 @@
     <Phonemes Red="255" Green="181" Blue="218"/>
     <Phrases Red="153" Green="255" Blue="153"/>
     <ReferenceEffect Red="255" Green="0" Blue="255"/>
-    <RowHeader Red="212" Green="208" Blue="200"/>
+    <ReferenceEffectLocked Red="255" Green="0" Blue="0"/>
     <RowHeaderSelected Red="130" Green="178" Blue="207"/>
     <Timing1 Red="0" Green="255" Blue="255"/>
     <Timing2 Red="255" Green="0" Blue="0"/>
@@ -47,6 +74,8 @@
     <Timing4 Red="0" Green="0" Blue="255"/>
     <Timing5 Red="255" Green="255" Blue="0"/>
     <TimingDefault Red="255" Green="255" Blue="255"/>
+    <Waveform Red="130" Green="178" Blue="207"/>
+    <WaveformSelected Red="0" Green="0" Blue="200"/>
     <Words Red="255" Green="218" Blue="145"/>
   </colors>
 </xrgb>
