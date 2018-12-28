@@ -40,7 +40,7 @@
   <palettes/>
   <modelGroups>
     <modelGroup selected="0" name="Floods" models="Right Flood,Left Flood" GridSize="400" layout="minimalGrid" LayoutGroup="Default"/>
-    <modelGroup selected="0" name="All Yard" LayoutGroup="Default" models="Bush_Tree Line,DeerLine,MegaTree,MegaTree Star" GridSize="400" layout="minimalGrid"/>
+    <modelGroup selected="0" name="All Yard" models="Bush_Tree Line,DeerLine,MegaTree,MegaTree Star" GridSize="400" layout="minimalGrid" LayoutGroup="Default"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">
