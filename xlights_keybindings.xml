@@ -87,4 +87,10 @@
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="UNLOCK_MODEL"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="WIRING_VIEW"/>
   <keybinding keycode="ESCAPE" alt="FALSE" control="FALSE" shift="FALSE" type="CANCEL_RENDER"/>
+  <keybinding keycode="a" alt="FALSE" control="TRUE" shift="FALSE" type="SELECT_ALL_MODELS"/>
+  <keybinding keycode="F12" alt="FALSE" control="FALSE" shift="FALSE" type="FOCUS_SEQUENCER"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="TOGGLE_RENDER"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="PRESETS_TOGGLE"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="VALUECURVES_TOGGLE"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="COLOR_DROPPER_TOGGLE"/>
 </keybindings>

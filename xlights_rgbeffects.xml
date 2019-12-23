@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" PixelSize="20" parm1="4" parm2="1" StringType="Single Color White" name="Windows" Dir="R" X1="0.217187" Y1="0.868055" X2="0.395312" Y2="0.868055" versionNumber="1" StartChannel="2:1">
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" name="Front Tree" parm1="2" parm2="1" Dir="L" CustomColor="#ffffff" StringType="Single Color Custom" PixelSize="25" WorldPosX="572.5356" WorldPosY="135.1187" WorldPosZ="0.0000" X2="0.000000" Y2="-86.305771" Z2="0.000000" versionNumber="3" StartChannel="#192.168.1.225:1:1">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" name="Right Flood" parm2="1" LayoutGroup="All Previews" PixelSize="100" Antialias="3" X1="0.774999" Y1="0.919444" X2="0.785937" Y2="0.925000" versionNumber="1" StartChannel="41">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" PixelSize="100" Antialias="3" name="Center Flood" WorldPosX="525.4891" WorldPosY="687.0742" WorldPosZ="0.0000" X2="33.999401" Y2="-32.000401" Z2="0.000000" versionNumber="3" StartChannel="41">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" StringType="Single Color White" PixelSize="20" name="Lower house" Dir="R" Advanced="1" String1="2" String2="1" X1="0.608594" Y1="0.744444" X2="0.738281" Y2="0.744444" versionNumber="1" StartChannel="2">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm2="1" parm1="2" PixelSize="25" name="Lower House" StringType="Single Color White" WorldPosX="702.6019" WorldPosY="584.8813" WorldPosZ="0.0000" X2="97.246033" Y2="0.000000" Z2="0.000000" versionNumber="3" StartChannel="&gt;Upper Gutters:1">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" PixelSize="8" StringType="Single Color White" parm1="9" parm2="1" name="Bush_Tree Line" Dir="R" Advanced="1" String5="&gt;Upper Gutters:5" String1="&gt;Upper Gutters:9" String2="&gt;Upper Gutters:8" String3="&gt;Upper Gutters:7" String4="&gt;Upper Gutters:6" String6="&gt;Upper Gutters:4" String7="&gt;Upper Gutters:3" String8="&gt;Upper Gutters:2" String9="&gt;Upper Gutters:1" X1="0.491406" Y1="0.802778" X2="0.789844" Y2="0.386111" versionNumber="1" StartChannel="&gt;Upper Gutters:9">
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" PixelSize="20" parm1="4" parm2="1" StringType="Single Color White" name="Windows" Dir="R" WorldPosX="229.3764" WorldPosY="637.1554" WorldPosZ="0.0000" X2="228.000000" Y2="0.000000" Z2="0.000000" versionNumber="3" StartChannel="2:1">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Star" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="5" LayoutGroup="Default" name="MegaTree Star" StringType="Single Color White" offsetXpct="0.1813" offsetYpct="0.6847" PreviewScaleX="0.0516" PreviewScaleY="0.1056" PreviewRotation="0" versionNumber="1" StartChannel="&gt;Corner Bush:1">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" name="Right Flood" parm2="1" LayoutGroup="All Previews" PixelSize="100" Antialias="3" WorldPosX="991.9988" WorldPosY="661.9997" WorldPosZ="0.0000" X2="14.000600" Y2="4.000300" Z2="0.000000" versionNumber="3" StartChannel="46">
       <ControllerConnection/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="8" name="MegaTree" StringType="Single Color White" offsetXpct="0.1820" offsetYpct="0.4944" PreviewScaleX="0.1156" PreviewScaleY="0.2750" PreviewRotation="0" versionNumber="1" StartChannel="&gt;Corner Bush:2">
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" PixelSize="8" StringType="Single Color White" parm2="1" name="Bush_Tree Line" parm1="8" Dir="L" Advanced="1" String1="&gt;Lower House:9" String2="&gt;Lower House:8" String3="&gt;Lower House:7" String4="&gt;Lower House:6" String5="&gt;Lower House:5" String6="&gt;Lower House:4" String7="&gt;Lower House:3" String8="&gt;Lower House:2" WorldPosX="385.8846" WorldPosY="580.4313" WorldPosZ="0.0000" X2="227.980286" Y2="-187.610870" Z2="0.000000" versionNumber="3" StartChannel="&gt;Lower House:9">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Circle" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="50" InsideOut="0" LayoutGroup="Default" name="Corner Bush" StringType="Single Color White" offsetXpct="0.0711" offsetYpct="0.2583" PreviewScaleX="0.0766" PreviewScaleY="0.1222" PreviewRotation="0" versionNumber="1" StartChannel="&gt;DeerLine:1">
+    <model DisplayAs="Star" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="5" LayoutGroup="Default" name="MegaTree Star" StringType="Single Color White" WorldPosX="199.2434" WorldPosY="510.0021" WorldPosZ="0.0000" ScaleX="1.2951" ScaleY="1.4908" ScaleZ="1.4908" RotateX="0" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="&gt;MegaTree:1">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" PixelSize="10" name="DeerLine" parm2="1" parm1="8" StringType="Single Color White" LayoutGroup="All Previews" Dir="L" Advanced="1" String1="&gt;Front Walk:8" String2="&gt;Front Walk:7" String3="&gt;Front Walk:6" String4="&gt;Front Walk:5" String5="&gt;Front Walk:4" String6="&gt;Front Walk:3" String7="&gt;Front Walk:2" String8="&gt;Front Walk:1" X1="0.277344" Y1="0.493056" X2="0.625781" Y2="0.493056" versionNumber="1" StartChannel="&gt;Front Walk:8">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="8" name="MegaTree" StringType="Single Color White" WorldPosX="196.9015" WorldPosY="395.6488" WorldPosZ="0.0000" ScaleX="1.2603" ScaleY="1.0665" ScaleZ="1.2603" RotateX="0" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="&gt;DeerLine:1">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="100" name="Front Walk" PixelSize="4" StringType="Single Color White" X1="0.820312" Y1="0.138889" X2="0.022656" Y2="0.138889" versionNumber="1" StartChannel="&gt;Bush_Tree Line:1">
+    <model DisplayAs="Circle" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="50" InsideOut="0" LayoutGroup="Default" name="Corner Bush" StringType="Single Color White" WorldPosX="91.0080" WorldPosY="185.9760" WorldPosZ="0.0000" ScaleX="1.9610" ScaleY="1.7597" ScaleZ="1.7597" RotateX="0" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="&gt;MegaTree Star:1">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" StringType="Single Color White" parm2="1" parm1="2" name="Upper Gutters" PixelSize="20" Dir="R" Advanced="1" String1="&gt;Lower house:2" String2="&gt;Lower house:1" X1="0.553125" Y1="0.868056" X2="0.754687" Y2="0.870833" versionNumber="1" StartChannel="&gt;Lower house:2">
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" PixelSize="10" name="DeerLine" parm2="1" parm1="8" StringType="Single Color White" LayoutGroup="All Previews" Dir="L" Advanced="1" String1="&gt;Bush_Tree Line:8" String2="&gt;Bush_Tree Line:7" String3="&gt;Bush_Tree Line:6" String4="&gt;Bush_Tree Line:5" String5="&gt;Bush_Tree Line:4" String6="&gt;Bush_Tree Line:3" String7="&gt;Bush_Tree Line:2" String8="&gt;Bush_Tree Line:1" WorldPosX="294.2215" WorldPosY="339.1978" WorldPosZ="0.0000" X2="314.781342" Y2="2.568512" Z2="0.000000" versionNumber="3" StartChannel="&gt;Bush_Tree Line:8">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Left Flood" parm2="1" PixelSize="100" Antialias="3" X1="0.033594" Y1="0.938889" X2="0.060156" Y2="0.894444" versionNumber="1" StartChannel="36">
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" StringType="Single Color White" parm2="1" name="Upper Gutters" PixelSize="20" parm1="3" Dir="L" Advanced="1" String2="2" String1="3" String3="1" WorldPosX="618.0474" WorldPosY="633.5093" WorldPosZ="0.0000" X2="257.999390" Y2="1.999500" Z2="0.000000" versionNumber="3" StartChannel="3">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Left Flood" parm2="1" PixelSize="100" Antialias="3" WorldPosX="43.0003" WorldPosY="676.0001" WorldPosZ="0.0000" X2="33.999401" Y2="-32.000401" Z2="0.000000" versionNumber="3" StartChannel="36">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Garage" parm2="100" WorldPosX="787.6923" WorldPosY="336.9041" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="6" PointData="0.000000,0.000000,0.000000,85.000000,2.431091,0.000000,85.000000,160.000000,0.000000,320.000000,160.000000,0.000000,320.000000,4.862244,0.000000,420.000000,4.862244,0.000000" cPointData="" versionNumber="3" StartChannel="513">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="100" name="Front Walk" Dir="L" WorldPosX="138.5755" WorldPosY="261.5385" WorldPosZ="0.0000" X2="577.397888" Y2="0.000000" Z2="0.000000" versionNumber="3" StartChannel="97">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Antialias="1" Transparency="0" parm3="1" LayoutGroup="Default" parm1="2" parm2="1" PixelSize="20" StringType="Single Color White" name="Parkway" Dir="L" Advanced="1" String1="&gt;Front Tree:2" String2="&gt;Front Tree:1" WorldPosX="431.5289" WorldPosY="50.0285" WorldPosZ="0.0000" X2="285.659973" Y2="0.000000" Z2="0.000000" versionNumber="3" StartChannel="&gt;Front Tree:2">
       <ControllerConnection/>
     </model>
   </models>
@@ -39,8 +51,18 @@
   <views/>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="Floods" models="Right Flood,Left Flood" GridSize="400" layout="minimalGrid" LayoutGroup="Default"/>
-    <modelGroup selected="0" name="All Yard" models="Bush_Tree Line,DeerLine,MegaTree,MegaTree Star" GridSize="400" layout="minimalGrid" LayoutGroup="Default"/>
+    <modelGroup selected="0" name="Floods" LayoutGroup="Default" models="Right Flood,Left Flood,Center Flood" GridSize="400" layout="minimalGrid">
+      <ControllerConnection/>
+    </modelGroup>
+    <modelGroup selected="0" name="All Yard" LayoutGroup="Default" models="Bush_Tree Line,DeerLine,MegaTree,MegaTree Star,Corner Bush,Front Tree,Parkway" GridSize="400" layout="minimalGrid">
+      <ControllerConnection/>
+    </modelGroup>
+    <modelGroup selected="0" name="All Pixels" LayoutGroup="Default" models="Front Walk,Garage" GridSize="400" layout="minimalGrid">
+      <ControllerConnection/>
+    </modelGroup>
+    <modelGroup selected="0" name="All Dimmers" LayoutGroup="Default" models="Upper Gutters,Lower House,Windows,All Yard" GridSize="400" layout="minimalGrid">
+      <ControllerConnection/>
+    </modelGroup>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">
@@ -50,6 +72,9 @@
     <previewWidth value="1280"/>
     <previewHeight value="720"/>
   </settings>
+  <view_objects>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="90" RotateY="0" RotateZ="0" versionNumber="3"/>
+  </view_objects>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
     <EffectSelected Red="204" Green="102" Blue="255"/>
@@ -78,4 +103,5 @@
     <WaveformSelected Red="0" Green="0" Blue="200"/>
     <Words Red="255" Green="218" Blue="145"/>
   </colors>
+  <Viewpoints/>
 </xrgb>
