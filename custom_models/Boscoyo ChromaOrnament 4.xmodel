@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custommodel 
+name="Boscoyo ChromaOrnament 4" parm1="41" parm2="52" Depth="1" StringType="RGB Nodes" Transparency="0" PixelSize="2" ModelBrightness="" Antialias="1" StrandNames="" NodeNames="" CustomModel=",,,,,,,,,,,,,,,,,,,51,,50,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,52,,,,,,49,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,53,,,,,,48,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,55,,54,,46,,47,,45,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,56,,,,,,,,44,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,57,58,,,59,,,43,42,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,68,,,,,,,,,,,,41,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,69,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,60,,,,,,,,,,,,,,,,,,,,;,,,,,,,,70,,,,,,,,,,,,,,,,,,,,,,,,39,,,,,,,,;,,,,,,,,,,,,,67,,,,,,,,,,,,,,38,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,71,,,,,,,,,,,,,,,61,,,,,,,,,,,,,,,30,,,,,;,,,,,,,,,,,,,,,66,,,,,,,,,,37,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,72,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29,,,;,,,,,,,,,,,,,,,,,,,,62,,,,,,,,,,,,,,,,,,,,;,,,,,,,74,,,,,,,,,,65,,,,,,36,,,,,,,,,,31,,,,,,,;,73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,;,,,,,,,,,,75,,,,,,,,,,63,,,,,,,,,,32,,,,,,,,,,;,,,,,,,,,,,,,76,,,,,64,,,,35,,,,,33,,,,,,,,,,,,,;82,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27;,,,,,,,,,,,,,,,,77,,,,,,,,34,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;83,,,,81,,,,80,,,,79,,,78,,,,,92,,,,,21,,,22,,,,23,,,,24,,,,26;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,91,,,,,,,,20,,,,,,,,,,,,,,,,;84,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25;,,,,,,,,,,,,,90,,,,,93,,,,7,,,,,19,,,,,,,,,,,,,;,,,,,,,,,,89,,,,,,,,,,6,,,,,,,,,,18,,,,,,,,,,;,85,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,;,,,,,,,88,,,,,,,,,,94,,,,,,8,,,,,,,,,,17,,,,,,,;,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,;,,,86,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,95,,,,,,,,,,9,,,,,,,,,,,,,,,;,,,,,87,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,14,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,96,,,,,,,,,,,,,,10,,,,,,,,,,,,,;,,,,,,,,97,,,,,,,,,,,,,,,,,,,,,,,,13,,,,,,,,;,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,98,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,99,,,,,,,,,,,,11,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,100,,,2,,,1,,,,,,,,,,,,,,,,," SourceVersion="2020.46"  >
+<subModel name="Outer Ring" layout="horizontal" type="ranges" line0="1,&#x9;2, 11,12,&#x9;13,&#x9;14,&#x9;15,16, &#x9;25,   26,&#x9;27,&#x9;28,&#x9;29, 30, &#x9;39,&#x9;40,&#x9;41,&#x9;43,58,59,68,69,70,71,72,73,82,83,84,85,86,87,97,98,99,100">
+  <ControllerConnection/>
+</subModel>
+<subModel name="2nd Ring" layout="horizontal" type="ranges" line0="3,10,17,24,31,38,60,67,74,81,88,96">
+  <ControllerConnection/>
+</subModel>
+<subModel name="3rd Ring" layout="horizontal" type="ranges" line0="4,9,18,23,32,37,61,66,75,80,89,95">
+  <ControllerConnection/>
+</subModel>
+<subModel name="4th Ring" layout="horizontal" type="ranges" line0="5,8,19,22,33,36,62,65,76,79,90,94">
+  <ControllerConnection/>
+</subModel>
+<subModel name="5th Ring (Inner)" layout="horizontal" type="ranges" line0="6-7,20-21,34-35,63-64,77-78,91,93">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 1" layout="horizontal" type="ranges" line0="6,2,3,4,5">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 2" layout="horizontal" type="ranges" line0="12,9,8,7,10">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 3" layout="horizontal" type="ranges" line0="15,20,17,18,19">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 4" layout="horizontal" type="ranges" line0="26,23,22,21,24">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 5" layout="horizontal" type="ranges" line0="29,34,31,32,33">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 7" layout="horizontal" type="ranges" line0="62-59,63">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 6" layout="horizontal" type="ranges" line0="40,37,36,35,38">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 8" layout="horizontal" type="ranges" line0="64-67,69">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 9" layout="horizontal" type="ranges" line0="77-74,72">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 10" layout="horizontal" type="ranges" line0="78-81,83">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 11" layout="horizontal" type="ranges" line0="91-88,86">
+  <ControllerConnection/>
+</subModel>
+<subModel name="All Legs" layout="horizontal" type="ranges" line0="6,2,3,4,5" line1="12,9,8,7,10" line2="15,20,17,18,19" line3="26,23,22,21,24" line4="29,34,31,32,33" line5="40,37,36,35,38" line6="62-59,63" line7="64-67,69" line8="77-74,72" line9="78-81,83" line10="91-88,86" line11="93-96,98">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Leg 12" layout="horizontal" type="ranges" line0="93-96,98">
+  <ControllerConnection/>
+</subModel>
+<subModel name="All Rings" layout="horizontal" type="ranges" line0="1,&#x9;2, 11,12,&#x9;13,&#x9;14,&#x9;15,16, &#x9;25,   26,&#x9;27,&#x9;28,&#x9;29, 30, &#x9;39,&#x9;40,&#x9;41,&#x9;43,58,59,68,69,70,71,72,73,82,83,84,85,86,87,97,98,99,100" line1="3,10,17,24,31,38,60,67,74,81,88,96" line2="4,9,18,23,32,37,61,66,75,80,89,95" line3="5,8,19,22,33,36,62,65,76,79,90,94" line4="6-7,20-21,34-35,63-64,77-78,91,93">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Hanger" layout="horizontal" type="ranges" line0="42-56,58-57">
+  <ControllerConnection/>
+</subModel>
+</custommodel>

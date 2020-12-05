@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2019.69</version>
+    <version>2020.51</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -20,7 +20,7 @@
   <Jukebox/>
   <ColorPalettes>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=50</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect></Effect>
@@ -42,10 +42,10 @@
     <Element collapsed="0" type="model" name="DeerLine" visible="1"/>
     <Element collapsed="0" type="model" name="Front Walk" visible="1"/>
     <Element collapsed="0" type="model" name="Upper Gutters" visible="1"/>
-    <Element collapsed="0" type="model" name="Front Tree" visible="1"/>
-    <Element collapsed="0" type="model" name="Parkway" visible="1"/>
     <Element collapsed="0" type="model" name="Garage" visible="1"/>
     <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="Neighbor Main" visible="1"/>
+    <Element collapsed="0" type="model" name="Neighbor Background" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="100ms" fixed="100">
@@ -158,24 +158,10 @@
         <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
         <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
-        <Effect ref="0" name="On" selected="1" id="5" startTime="174700" endTime="175400" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="174700" endTime="175400" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="175400" endTime="180000" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="270300" endTime="297000" palette="0"/>
         <Effect ref="1" name="On" id="8" startTime="297000" endTime="300000" palette="0"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="Front Tree">
-      <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="4100" palette="0"/>
-        <Effect ref="0" name="On" selected="1" id="1" startTime="4100" endTime="175400" palette="0"/>
-        <Effect ref="0" name="On" id="2" startTime="175400" endTime="180000" palette="0"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="Parkway">
-      <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="4100" palette="0"/>
-        <Effect ref="0" name="On" selected="1" id="1" startTime="4100" endTime="175400" palette="0"/>
-        <Effect ref="0" name="On" id="2" startTime="175400" endTime="180000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Garage">
@@ -184,6 +170,20 @@
     <Element type="model" name="All Pixels">
       <EffectLayer>
         <Effect ref="2" name="Plasma" startTime="0" endTime="180000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Neighbor Main">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="4100" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4100" endTime="159100" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="159100" endTime="180000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Neighbor Background">
+      <EffectLayer>
+        <Effect ref="0" name="On" selected="1" startTime="0" endTime="99700" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="99700" endTime="161200" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="2" startTime="161200" endTime="180000" palette="0"/>
       </EffectLayer>
     </Element>
   </ElementEffects>
