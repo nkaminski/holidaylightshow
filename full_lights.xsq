@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.51</version>
+    <version>2021.39</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -20,12 +20,19 @@
   <Jukebox/>
   <ColorPalettes>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=50</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1,C_SLIDER_Brightness=60</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=60</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=60</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=60</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect></Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=100</Effect>
-    <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Line_Density=1,E_SLIDER_Plasma_Speed=49,E_SLIDER_Plasma_Style=1</Effect>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=H-expand,E_SLIDER_Bars_BarCount=5,E_TEXTCTRL_Bars_Center=0,E_TEXTCTRL_Bars_Cycles=20.0</Effect>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=H-expand,E_SLIDER_Bars_BarCount=5,E_TEXTCTRL_Bars_Center=0,E_TEXTCTRL_Bars_Cycles=20</Effect>
+    <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Line_Density=4,E_SLIDER_Plasma_Speed=45,E_SLIDER_Plasma_Style=1</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=3,E_SLIDER_Spirals_Rotation=300,E_SLIDER_Spirals_Thickness=100,E_TEXTCTRL_Spirals_Movement=15.0</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -40,12 +47,30 @@
     <Element collapsed="0" type="model" name="MegaTree" visible="1"/>
     <Element collapsed="0" type="model" name="Corner Bush" visible="1"/>
     <Element collapsed="0" type="model" name="DeerLine" visible="1"/>
-    <Element collapsed="0" type="model" name="Front Walk" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches" visible="1"/>
     <Element collapsed="0" type="model" name="Upper Gutters" visible="1"/>
     <Element collapsed="0" type="model" name="Garage" visible="1"/>
-    <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
-    <Element collapsed="0" type="model" name="Neighbor Main" visible="1"/>
-    <Element collapsed="0" type="model" name="Neighbor Background" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage Snowflakes" visible="1"/>
+    <Element collapsed="0" type="model" name="Upstairs Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="Front Tree" visible="0"/>
+    <Element collapsed="0" type="model" name="Neighbor Lower" visible="0"/>
+    <Element collapsed="0" type="model" name="Boscoyo ChromaCane 4" visible="0"/>
+    <Element collapsed="0" type="model" name="Boscoyo ChromaCane 3" visible="0"/>
+    <Element collapsed="0" type="model" name="Boscoyo ChromaCane 2" visible="0"/>
+    <Element collapsed="0" type="model" name="Boscoyo ChromaCane 1" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage ChromaFlake L" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage ChromaFlake R" visible="0"/>
+    <Element collapsed="0" type="model" name="ChromaOrnament R" visible="0"/>
+    <Element collapsed="0" type="model" name="ChromaOrnament L" visible="0"/>
+    <Element collapsed="0" type="model" name="Boscoyo ChromaCane 5" visible="0"/>
+    <Element collapsed="0" type="model" name="Boscoyo ChromaCane 6" visible="0"/>
+    <Element collapsed="0" type="model" name="Boscoyo ChromaCane 7" visible="0"/>
+    <Element collapsed="0" type="model" name="Boscoyo ChromaCane 8" visible="0"/>
+    <Element collapsed="0" type="model" name="Parkway" visible="1"/>
+    <Element collapsed="0" type="model" name="Neighbor" visible="1"/>
+    <Element collapsed="0" type="model" name="Neighbor Upper" visible="0"/>
+    <Element collapsed="0" type="model" name="Neighbor Flood" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="100ms" fixed="100">
@@ -95,15 +120,13 @@
     </Element>
     <Element type="model" name="MegaTree Star">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" selected="1" startTime="0" endTime="3500" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="3500" endTime="8800" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="8800" endTime="16600" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="16600" endTime="21400" palette="0"/>
         <Effect ref="0" name="On" id="4" startTime="21400" endTime="174700" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="174700" endTime="175500" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="175500" endTime="180000" palette="0"/>
-        <Effect ref="0" name="On" id="7" startTime="270300" endTime="297000" palette="0"/>
-        <Effect ref="1" name="On" id="8" startTime="297000" endTime="300000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="MegaTree">
@@ -145,7 +168,7 @@
         <Effect ref="1" name="On" id="8" startTime="297000" endTime="300000" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Front Walk">
+    <Element type="model" name="Arches">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="270300" endTime="297000" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="297000" endTime="300000" palette="0"/>
@@ -165,26 +188,98 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Garage">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="All Pixels">
       <EffectLayer>
-        <Effect ref="2" name="Plasma" startTime="0" endTime="180000" palette="1"/>
+        <Effect ref="2" name="Bars" startTime="0" endTime="60000" palette="1"/>
+        <Effect ref="3" name="Bars" id="1" startTime="60000" endTime="120000" palette="1"/>
+        <Effect ref="3" name="Bars" id="2" startTime="120000" endTime="180000" palette="1"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Neighbor Main">
+    <Element type="model" name="Garage Snowflakes">
+      <EffectLayer>
+        <Effect ref="4" name="Plasma" startTime="0" endTime="180000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Upstairs Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes">
+      <EffectLayer>
+        <Effect ref="5" name="Spirals" startTime="0" endTime="180000" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Tree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Neighbor Lower">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Boscoyo ChromaCane 4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Boscoyo ChromaCane 3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Boscoyo ChromaCane 2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Boscoyo ChromaCane 1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage ChromaFlake L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage ChromaFlake R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="ChromaOrnament R">
+      <EffectLayer/>
+      <SubModelEffectLayer name="All Rings">
+        <Effect ref="0" name="On" startTime="0" endTime="180000" palette="4"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Hanger">
+        <Effect ref="0" name="On" startTime="0" endTime="180000" palette="5"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="ChromaOrnament L">
+      <EffectLayer/>
+      <SubModelEffectLayer name="All Rings">
+        <Effect ref="0" name="On" startTime="0" endTime="180000" palette="4"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Hanger">
+        <Effect ref="0" name="On" startTime="0" endTime="180000" palette="5"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="Boscoyo ChromaCane 5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Boscoyo ChromaCane 6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Boscoyo ChromaCane 7">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Boscoyo ChromaCane 8">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Parkway">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="99700" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="99700" endTime="161200" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="161200" endTime="180000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Neighbor">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="4100" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="4100" endTime="159100" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="159100" endTime="180000" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Neighbor Background">
-      <EffectLayer>
-        <Effect ref="0" name="On" selected="1" startTime="0" endTime="99700" palette="0"/>
-        <Effect ref="0" name="On" id="1" startTime="99700" endTime="161200" palette="0"/>
-        <Effect ref="0" name="On" selected="1" id="2" startTime="161200" endTime="180000" palette="0"/>
-      </EffectLayer>
+    <Element type="model" name="Neighbor Upper">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Neighbor Flood">
+      <EffectLayer/>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>
