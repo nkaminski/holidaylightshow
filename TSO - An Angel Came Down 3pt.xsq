@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.39</version>
+    <version>2022.24</version>
     <author>Miles, West Lights</author>
-    <author-email/>
-    <author-website/>
+    <author-email></author-email>
+    <author-website></author-website>
     <song>An Angel Came Down</song>
     <artist>Trans-Siberian Orchestra</artist>
     <album>Christmas Eve and Other Stories</album>
-    <MusicURL/>
-    <comment/>
+    <MusicURL></MusicURL>
+    <comment></comment>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/Users/nashkaminski/Documents/Light Show/holidaylightshow/audio/TSO - An Angel Came Down.m4a</mediaFile>
@@ -21,7 +21,6 @@
   <ColorPalettes>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette7=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_SLIDER_Brightness=50</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
@@ -42,25 +41,37 @@
     <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=0,E_TEXTCTRL_Curtain_Speed=4.0</Effect>
     <Effect></Effect>
     <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=0,E_TEXTCTRL_Curtain_Speed=10.0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=50</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=50,E_TEXTCTRL_Eff_On_Start=50</Effect>
     <Effect>E_TEXTCTRL_Eff_On_Start=50</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=100</Effect>
     <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=0,E_TEXTCTRL_Curtain_Speed=8.0</Effect>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=7.4,T_TEXTCTRL_Fadeout=2</Effect>
     <Effect>T_TEXTCTRL_Fadein=1</Effect>
     <Effect>T_TEXTCTRL_Fadeout=0.8</Effect>
     <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=7.4,T_TEXTCTRL_Fadeout=5</Effect>
-    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=7.4,T_TEXTCTRL_Fadeout=3</Effect>
     <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=7.4,T_TEXTCTRL_Fadeout=2.5</Effect>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=7.4,T_TEXTCTRL_Fadeout=3</Effect>
+    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Rainbow,E_SLIDER_Meteors_Count=10,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=10,E_SLIDER_Meteors_Swirl_Intensity=0,T_TEXTCTRL_Fadeout=0.5</Effect>
+    <Effect>E_CHECKBOX_Morph_AutoRepeat=0,E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Start,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=1,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=100,E_SLIDER_Morph_End_Y2=100,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=0,E_SLIDER_Morph_Start_Y2=0</Effect>
     <Effect>E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Options,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=0,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=100,E_SLIDER_Morph_End_Y2=100,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=0,E_SLIDER_Morph_Start_Y2=0</Effect>
     <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=3,E_SLIDER_Spirals_Rotation=206,E_SLIDER_Spirals_Thickness=84,E_TEXTCTRL_Spirals_Movement=0.9,T_TEXTCTRL_Fadein=2,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Options,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=1,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=100,E_SLIDER_Morph_End_Y2=100,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=0,E_SLIDER_Morph_Start_Y2=0</Effect>
     <Effect>T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>T_TEXTCTRL_Fadein=2</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=50</Effect>
-    <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=To Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Morph_AutoRepeat=0,E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Options,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=0,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=100,E_SLIDER_Morph_End_Y2=100,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=0,E_SLIDER_Morph_Start_Y2=0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Palette,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=5,E_SLIDER_Butterfly_Style=1,T_TEXTCTRL_Fadein=0.25</Effect>
+    <Effect>T_TEXTCTRL_Fadeout=2.00</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=33,E_TEXTCTRL_Eff_On_Start=100</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=33,E_TEXTCTRL_Eff_On_Start=33</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=100,E_TEXTCTRL_Eff_On_Start=33</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -76,7 +87,7 @@
     <Element collapsed="0" type="model" name="Lower House" visible="1"/>
     <Element collapsed="0" type="model" name="House Pixels" visible="1"/>
     <Element collapsed="0" type="model" name="Upstairs Windows" visible="1"/>
-    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Dimmers" visible="1"/>
     <Element collapsed="0" type="model" name="Garage Snowflakes" visible="1"/>
     <Element collapsed="0" type="model" name="Garage" visible="1"/>
     <Element collapsed="0" type="model" name="All Yard" visible="1"/>
@@ -85,7 +96,7 @@
     <Element collapsed="0" type="model" name="Bush_Tree Line" visible="1"/>
     <Element collapsed="0" type="model" name="DeerLine" visible="1"/>
     <Element collapsed="0" type="model" name="MegaTree" visible="1"/>
-    <Element collapsed="0" type="model" name="MegaTree Star" visible="1"/>
+    <Element collapsed="0" type="model" name="Megatree Star" visible="1"/>
     <Element collapsed="0" type="model" name="Candy Canes" visible="1"/>
     <Element collapsed="0" type="model" name="Arches" visible="1"/>
     <Element collapsed="0" type="model" name="Corner Bush" visible="1"/>
@@ -97,6 +108,8 @@
     <Element collapsed="0" type="model" name="Boscoyo ChromaCane 6" visible="0"/>
     <Element collapsed="0" type="model" name="Boscoyo ChromaCane 7" visible="0"/>
     <Element collapsed="0" type="model" name="Boscoyo ChromaCane 8" visible="0"/>
+    <Element collapsed="0" type="model" name="18072 Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="Neighbor" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="Lyric">
@@ -564,7 +577,6 @@
         <Effect label="89.10 bpm" startTime="229600" endTime="230300"></Effect>
         <Effect label="89.10 bpm" startTime="230300" endTime="230950"></Effect>
         <Effect label="89.10 bpm" startTime="230950" endTime="231650"></Effect>
-        <Effect label="" startTime="231650" endTime="231650"></Effect>
       </EffectLayer>
     </Element>
     <Element type="timing" name="Note Onsets">
@@ -686,7 +698,6 @@
         <Effect label="" startTime="35300" endTime="35500"></Effect>
         <Effect label="" startTime="35500" endTime="35700"></Effect>
         <Effect label="" startTime="35700" endTime="35850"></Effect>
-        <Effect label="" startTime="35850" endTime="35850"></Effect>
         <Effect label="" startTime="35850" endTime="36050"></Effect>
         <Effect label="" startTime="36050" endTime="36300"></Effect>
         <Effect label="" startTime="36300" endTime="36400"></Effect>
@@ -1631,7 +1642,6 @@
         <Effect label="" startTime="218650" endTime="220100"></Effect>
         <Effect label="" startTime="220100" endTime="222700"></Effect>
         <Effect label="" startTime="222700" endTime="224300"></Effect>
-        <Effect label="" startTime="224300" endTime="224300"></Effect>
       </EffectLayer>
     </Element>
     <Element type="timing" name="Major Onsets">
@@ -1727,16 +1737,51 @@
         <Effect label="" startTime="70600" endTime="71350"></Effect>
         <Effect label="" startTime="71350" endTime="72050"></Effect>
         <Effect label="" startTime="72050" endTime="72525"></Effect>
-        <Effect label="" startTime="72525" endTime="73500"></Effect>
-        <Effect label="" startTime="73500" endTime="94750"></Effect>
+        <Effect label="" startTime="72525" endTime="73200"></Effect>
+        <Effect label="" startTime="73200" endTime="73525"></Effect>
+        <Effect label="" startTime="73525" endTime="75000"></Effect>
+        <Effect label="" startTime="75000" endTime="76400"></Effect>
+        <Effect label="" startTime="76400" endTime="76900"></Effect>
+        <Effect label="" startTime="76900" endTime="77100"></Effect>
+        <Effect label="" startTime="77100" endTime="77350"></Effect>
+        <Effect label="" startTime="77350" endTime="77850"></Effect>
+        <Effect label="" startTime="77850" endTime="78375"></Effect>
+        <Effect label="" startTime="78375" endTime="78775"></Effect>
+        <Effect label="" startTime="78775" endTime="79300"></Effect>
+        <Effect label="" startTime="79300" endTime="80750"></Effect>
+        <Effect label="" startTime="80750" endTime="82150"></Effect>
+        <Effect label="" startTime="82150" endTime="82900"></Effect>
+        <Effect label="" startTime="82900" endTime="83625"></Effect>
+        <Effect label="" startTime="83625" endTime="84100"></Effect>
+        <Effect label="" startTime="84100" endTime="84600"></Effect>
+        <Effect label="" startTime="84600" endTime="85000"></Effect>
+        <Effect label="" startTime="85000" endTime="85500"></Effect>
+        <Effect label="" startTime="85500" endTime="86000"></Effect>
+        <Effect label="" startTime="86000" endTime="86450"></Effect>
+        <Effect label="" startTime="86450" endTime="87900"></Effect>
+        <Effect label="" startTime="87900" endTime="88400"></Effect>
+        <Effect label="" startTime="88400" endTime="88550"></Effect>
+        <Effect label="" startTime="88550" endTime="88800"></Effect>
+        <Effect label="" startTime="88800" endTime="89250"></Effect>
+        <Effect label="" startTime="89250" endTime="89750"></Effect>
+        <Effect label="" startTime="89750" endTime="90250"></Effect>
+        <Effect label="" startTime="90250" endTime="90700"></Effect>
+        <Effect label="" startTime="90700" endTime="91150"></Effect>
+        <Effect label="" startTime="91150" endTime="91650"></Effect>
+        <Effect label="" startTime="91650" endTime="92100"></Effect>
+        <Effect label="" startTime="92100" endTime="93500"></Effect>
+        <Effect label="" startTime="93500" endTime="94150"></Effect>
+        <Effect label="" startTime="94150" endTime="94750"></Effect>
         <Effect label="" startTime="94750" endTime="100575"></Effect>
         <Effect label="" startTime="100575" endTime="106500"></Effect>
         <Effect label="" startTime="106500" endTime="112300"></Effect>
-        <Effect label="" startTime="112300" endTime="118200"></Effect>
+        <Effect label="" startTime="112300" endTime="115250"></Effect>
+        <Effect label="" startTime="115250" endTime="118200"></Effect>
         <Effect label="" startTime="118200" endTime="121200"></Effect>
         <Effect label="" startTime="121200" endTime="122250"></Effect>
         <Effect label="" startTime="122250" endTime="123900"></Effect>
-        <Effect label="" startTime="123900" endTime="129850"></Effect>
+        <Effect label="" startTime="123900" endTime="125800"></Effect>
+        <Effect label="" startTime="125800" endTime="129850"></Effect>
         <Effect label="" startTime="129850" endTime="131350"></Effect>
         <Effect label="" startTime="131350" endTime="135700"></Effect>
         <Effect label="" startTime="135700" endTime="137250"></Effect>
@@ -1797,20 +1842,22 @@
     </Element>
     <Element type="model" name="Upper Gutters">
       <EffectLayer>
-        <Effect ref="3" name="Curtain" startTime="94750" endTime="100575" palette="2"/>
-        <Effect ref="4" name="On" id="1" startTime="100575" endTime="190200" palette="1"/>
-        <Effect ref="5" name="On" id="2" startTime="190200" endTime="191600" palette="1"/>
-        <Effect ref="2" name="On" id="3" startTime="191600" endTime="217825" palette="3"/>
-        <Effect ref="6" name="On" id="4" startTime="217825" endTime="220075" palette="3"/>
+        <Effect ref="3" name="Curtain" startTime="94750" endTime="100600" palette="1"/>
+        <Effect ref="4" name="On" id="1" startTime="100600" endTime="101100" palette="1"/>
+        <Effect ref="5" name="On" id="2" startTime="101100" endTime="190200" palette="1"/>
+        <Effect ref="6" name="On" id="3" startTime="190200" endTime="191600" palette="1"/>
+        <Effect ref="2" name="On" id="4" startTime="191600" endTime="217825" palette="2"/>
+        <Effect ref="7" name="On" id="5" startTime="217825" endTime="220075" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Lower House">
       <EffectLayer>
-        <Effect ref="7" name="Curtain" startTime="94750" endTime="100575" palette="2"/>
-        <Effect ref="4" name="On" id="1" startTime="100575" endTime="190200" palette="1"/>
-        <Effect ref="5" name="On" id="2" startTime="190200" endTime="191600" palette="1"/>
-        <Effect ref="2" name="On" id="3" startTime="191600" endTime="217825" palette="3"/>
-        <Effect ref="6" name="On" id="4" startTime="217825" endTime="220075" palette="3"/>
+        <Effect ref="8" name="Curtain" startTime="94750" endTime="100600" palette="1"/>
+        <Effect ref="4" name="On" id="1" startTime="100600" endTime="101100" palette="1"/>
+        <Effect ref="5" name="On" id="2" startTime="101100" endTime="190200" palette="1"/>
+        <Effect ref="6" name="On" id="3" startTime="190200" endTime="191600" palette="1"/>
+        <Effect ref="2" name="On" id="4" startTime="191600" endTime="217825" palette="2"/>
+        <Effect ref="7" name="On" id="5" startTime="217825" endTime="220075" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="House Pixels">
@@ -1819,8 +1866,10 @@
     <Element type="model" name="Upstairs Windows">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Windows">
-      <EffectLayer/>
+    <Element type="model" name="Window Dimmers">
+      <EffectLayer>
+        <Effect ref="9" name="Curtain" startTime="115250" endTime="118200" palette="1"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Garage Snowflakes">
       <EffectLayer/>
@@ -1833,27 +1882,27 @@
     </Element>
     <Element type="model" name="All Pixels">
       <EffectLayer>
-        <Effect ref="2" name="Color Wash" startTime="73250" endTime="79125" palette="4"/>
-        <Effect ref="2" name="Color Wash" id="1" startTime="79125" endTime="84800" palette="5"/>
-        <Effect ref="2" name="Color Wash" id="2" startTime="84800" endTime="90600" palette="6"/>
-        <Effect ref="2" name="Color Wash" id="3" startTime="90600" endTime="97475" palette="7"/>
-        <Effect ref="2" name="Color Wash" id="4" startTime="97475" endTime="102950" palette="4"/>
-        <Effect ref="2" name="Color Wash" id="5" startTime="102950" endTime="105700" palette="8"/>
-        <Effect ref="2" name="Color Wash" id="6" startTime="105700" endTime="108850" palette="7"/>
-        <Effect ref="2" name="Color Wash" id="7" startTime="108850" endTime="111600" palette="4"/>
-        <Effect ref="2" name="Color Wash" id="8" startTime="111600" endTime="114700" palette="8"/>
-        <Effect ref="2" name="Color Wash" id="9" startTime="114700" endTime="117600" palette="7"/>
-        <Effect ref="2" name="Color Wash" id="10" startTime="117600" endTime="120600" palette="4"/>
-        <Effect ref="2" name="Color Wash" id="11" startTime="120600" endTime="125800" palette="8"/>
-        <Effect ref="0" name="On" id="12" startTime="125800" endTime="129850" palette="9"/>
-        <Effect ref="8" name="Color Wash" id="13" startTime="193075" endTime="195450" palette="4"/>
-        <Effect ref="2" name="Color Wash" id="14" startTime="195450" endTime="198100" palette="5"/>
-        <Effect ref="2" name="Color Wash" id="15" startTime="198100" endTime="201300" palette="6"/>
-        <Effect ref="2" name="Color Wash" id="16" startTime="201300" endTime="203875" palette="7"/>
-        <Effect ref="2" name="Color Wash" id="17" startTime="203875" endTime="207250" palette="4"/>
-        <Effect ref="2" name="Color Wash" id="18" startTime="207250" endTime="210000" palette="8"/>
-        <Effect ref="2" name="Color Wash" id="19" startTime="210000" endTime="213400" palette="7"/>
-        <Effect ref="9" name="Color Wash" id="20" startTime="213400" endTime="218575" palette="4"/>
+        <Effect ref="10" name="Color Wash" startTime="73250" endTime="79125" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="1" startTime="79125" endTime="84800" palette="4"/>
+        <Effect ref="2" name="Color Wash" id="2" startTime="84800" endTime="90600" palette="5"/>
+        <Effect ref="2" name="Color Wash" id="3" startTime="90600" endTime="97475" palette="6"/>
+        <Effect ref="2" name="Color Wash" id="4" startTime="97475" endTime="102950" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="5" startTime="102950" endTime="105700" palette="7"/>
+        <Effect ref="2" name="Color Wash" id="6" startTime="105700" endTime="108850" palette="6"/>
+        <Effect ref="2" name="Color Wash" id="7" startTime="108850" endTime="111600" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="8" startTime="111600" endTime="114700" palette="7"/>
+        <Effect ref="2" name="Color Wash" id="9" startTime="114700" endTime="117600" palette="6"/>
+        <Effect ref="2" name="Color Wash" id="10" startTime="117600" endTime="120600" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="11" startTime="120600" endTime="125800" palette="7"/>
+        <Effect ref="0" name="On" id="12" startTime="125800" endTime="129850" palette="8"/>
+        <Effect ref="10" name="Color Wash" id="13" startTime="193075" endTime="195450" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="14" startTime="195450" endTime="198100" palette="4"/>
+        <Effect ref="2" name="Color Wash" id="15" startTime="198100" endTime="201300" palette="5"/>
+        <Effect ref="2" name="Color Wash" id="16" startTime="201300" endTime="203875" palette="6"/>
+        <Effect ref="2" name="Color Wash" id="17" startTime="203875" endTime="207250" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="18" startTime="207250" endTime="210000" palette="7"/>
+        <Effect ref="2" name="Color Wash" id="19" startTime="210000" endTime="213400" palette="6"/>
+        <Effect ref="11" name="Color Wash" id="20" startTime="213400" endTime="218575" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Front Yard Pixels">
@@ -1861,96 +1910,104 @@
     </Element>
     <Element type="model" name="Bush_Tree Line">
       <EffectLayer>
-        <Effect ref="10" name="Curtain" startTime="106500" endTime="112300" palette="1"/>
-        <Effect ref="11" name="Curtain" id="1" startTime="118200" endTime="121200" palette="1"/>
-        <Effect ref="2" name="On" id="2" startTime="121200" endTime="122250" palette="3"/>
-        <Effect ref="2" name="On" id="3" startTime="122250" endTime="123900" palette="3"/>
-        <Effect ref="6" name="On" id="4" startTime="123900" endTime="129850" palette="3"/>
-        <Effect ref="12" name="Curtain" id="5" startTime="195925" endTime="198800" palette="1"/>
-        <Effect ref="12" name="Curtain" id="6" startTime="201825" endTime="204800" palette="1"/>
-        <Effect ref="12" name="Curtain" id="7" startTime="207750" endTime="210675" palette="1"/>
-        <Effect ref="11" name="Curtain" id="8" startTime="214075" endTime="217825" palette="1"/>
+        <Effect ref="12" name="Curtain" startTime="106500" endTime="112300" palette="1"/>
+        <Effect ref="9" name="Curtain" id="1" startTime="118200" endTime="121200" palette="1"/>
+        <Effect ref="2" name="On" id="2" startTime="121200" endTime="122250" palette="2"/>
+        <Effect ref="2" name="On" id="3" startTime="122250" endTime="123900" palette="2"/>
+        <Effect ref="7" name="On" id="4" startTime="123900" endTime="129850" palette="2"/>
+        <Effect ref="13" name="Curtain" id="5" startTime="195925" endTime="198800" palette="1"/>
+        <Effect ref="13" name="Curtain" id="6" startTime="201825" endTime="204800" palette="1"/>
+        <Effect ref="13" name="Curtain" id="7" startTime="207750" endTime="210675" palette="1"/>
+        <Effect ref="14" name="Curtain" id="8" startTime="214075" endTime="217825" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="DeerLine">
       <EffectLayer>
-        <Effect ref="10" name="Curtain" startTime="100575" endTime="106500" palette="1"/>
-        <Effect ref="10" name="Curtain" id="1" startTime="112300" endTime="118200" palette="1"/>
-        <Effect ref="2" name="On" id="2" startTime="122250" endTime="123900" palette="3"/>
-        <Effect ref="6" name="On" id="3" startTime="123900" endTime="129850" palette="3"/>
-        <Effect ref="12" name="Curtain" id="4" startTime="193050" endTime="195925" palette="1"/>
-        <Effect ref="12" name="Curtain" id="5" startTime="198800" endTime="201825" palette="1"/>
-        <Effect ref="12" name="Curtain" id="6" startTime="204800" endTime="207750" palette="1"/>
-        <Effect ref="12" name="Curtain" id="7" startTime="210675" endTime="214075" palette="1"/>
+        <Effect ref="12" name="Curtain" startTime="100575" endTime="106500" palette="1"/>
+        <Effect ref="9" name="Curtain" id="1" startTime="112300" endTime="115250" palette="1"/>
+        <Effect ref="2" name="On" id="2" startTime="122250" endTime="123900" palette="2"/>
+        <Effect ref="7" name="On" id="3" startTime="123900" endTime="129850" palette="2"/>
+        <Effect ref="13" name="Curtain" id="4" startTime="193050" endTime="195925" palette="1"/>
+        <Effect ref="13" name="Curtain" id="5" startTime="198800" endTime="201825" palette="1"/>
+        <Effect ref="13" name="Curtain" id="6" startTime="204800" endTime="207750" palette="1"/>
+        <Effect ref="13" name="Curtain" id="7" startTime="210675" endTime="214075" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="MegaTree">
       <EffectLayer>
-        <Effect ref="10" name="Curtain" startTime="123900" endTime="129850" palette="1"/>
+        <Effect ref="15" name="Meteors" startTime="33300" endTime="38675" palette="1"/>
+        <Effect ref="12" name="Curtain" id="1" startTime="123900" endTime="129850" palette="1"/>
+        <Effect ref="16" name="Morph" id="2" startTime="224275" endTime="232300" palette="9"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="MegaTree Star">
+    <Element type="model" name="Megatree Star">
       <EffectLayer>
-        <Effect ref="6" name="On" startTime="123900" endTime="129850" palette="3"/>
+        <Effect ref="0" name="On" startTime="33300" endTime="38675" palette="1"/>
+        <Effect ref="7" name="On" id="1" startTime="123900" endTime="129850" palette="2"/>
+        <Effect ref="0" name="On" id="2" startTime="225875" endTime="232300" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Candy Canes">
       <EffectLayer>
-        <Effect ref="13" name="Morph" startTime="33300" endTime="35700" palette="10"/>
-        <Effect ref="14" name="Spirals" id="1" startTime="38650" endTime="62075" palette="11"/>
-        <Effect ref="2" name="Off" id="2" startTime="73500" endTime="129875" palette="4"/>
-        <Effect ref="15" name="Morph" id="3" startTime="129875" endTime="135700" palette="4"/>
-        <Effect ref="15" name="Morph" id="4" startTime="135700" endTime="141500" palette="4"/>
-        <Effect ref="15" name="Morph" id="5" startTime="141500" endTime="147300" palette="4"/>
-        <Effect ref="15" name="Morph" id="6" startTime="147300" endTime="153100" palette="4"/>
-        <Effect ref="15" name="Morph" id="7" startTime="153100" endTime="158775" palette="4"/>
-        <Effect ref="15" name="Morph" id="8" startTime="158775" endTime="164500" palette="4"/>
-        <Effect ref="15" name="Morph" id="9" startTime="164500" endTime="170250" palette="4"/>
-        <Effect ref="15" name="Morph" id="10" startTime="170250" endTime="175950" palette="4"/>
-        <Effect ref="15" name="Morph" id="11" startTime="175950" endTime="181650" palette="4"/>
-        <Effect ref="15" name="Morph" id="12" startTime="181650" endTime="187350" palette="4"/>
-        <Effect ref="15" name="Morph" id="13" startTime="187350" endTime="190200" palette="4"/>
-        <Effect ref="2" name="Color Wash" id="14" startTime="190200" endTime="190675" palette="4"/>
-        <Effect ref="2" name="Color Wash" id="15" startTime="190675" endTime="191150" palette="4"/>
-        <Effect ref="2" name="Color Wash" id="16" startTime="191150" endTime="191600" palette="4"/>
-        <Effect ref="16" name="Color Wash" id="17" startTime="191600" endTime="193050" palette="4"/>
-        <Effect ref="2" name="Off" id="18" startTime="193050" endTime="218575" palette="4"/>
+        <Effect ref="17" name="Morph" startTime="33300" endTime="35700" palette="9"/>
+        <Effect ref="18" name="Spirals" id="1" startTime="38650" endTime="62075" palette="10"/>
+        <Effect ref="2" name="Off" id="2" startTime="72575" endTime="129875" palette="3"/>
+        <Effect ref="19" name="Morph" id="3" startTime="129875" endTime="135700" palette="3"/>
+        <Effect ref="19" name="Morph" id="4" startTime="135700" endTime="141500" palette="3"/>
+        <Effect ref="19" name="Morph" id="5" startTime="141500" endTime="147300" palette="3"/>
+        <Effect ref="19" name="Morph" id="6" startTime="147300" endTime="153100" palette="3"/>
+        <Effect ref="19" name="Morph" id="7" startTime="153100" endTime="158775" palette="3"/>
+        <Effect ref="19" name="Morph" id="8" startTime="158775" endTime="164500" palette="3"/>
+        <Effect ref="19" name="Morph" id="9" startTime="164500" endTime="170250" palette="3"/>
+        <Effect ref="19" name="Morph" id="10" startTime="170250" endTime="175950" palette="3"/>
+        <Effect ref="19" name="Morph" id="11" startTime="175950" endTime="181650" palette="3"/>
+        <Effect ref="19" name="Morph" id="12" startTime="181650" endTime="187350" palette="3"/>
+        <Effect ref="19" name="Morph" id="13" startTime="187350" endTime="190200" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="14" startTime="190200" endTime="190675" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="15" startTime="190675" endTime="191150" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="16" startTime="191150" endTime="191600" palette="3"/>
+        <Effect ref="20" name="Color Wash" id="17" startTime="191600" endTime="193050" palette="3"/>
+        <Effect ref="2" name="Off" id="18" startTime="193050" endTime="218575" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Arches">
       <EffectLayer>
-        <Effect ref="17" name="Color Wash" startTime="11600" endTime="17200" palette="11"/>
-        <Effect ref="2" name="Color Wash" id="1" startTime="17200" endTime="23050" palette="12"/>
-        <Effect ref="2" name="Color Wash" id="2" startTime="23050" endTime="28650" palette="13"/>
-        <Effect ref="2" name="Color Wash" id="3" startTime="28650" endTime="35700" palette="14"/>
-        <Effect ref="18" name="On" id="4" startTime="35700" endTime="38650" palette="15"/>
-        <Effect ref="19" name="SingleStrand" id="5" startTime="39250" endTime="40700" palette="1"/>
-        <Effect ref="20" name="SingleStrand" id="6" startTime="40700" endTime="42200" palette="1"/>
-        <Effect ref="19" name="SingleStrand" id="7" startTime="42200" endTime="43600" palette="1"/>
-        <Effect ref="20" name="SingleStrand" id="8" startTime="43600" endTime="45050" palette="1"/>
-        <Effect ref="19" name="SingleStrand" id="9" startTime="45050" endTime="46500" palette="1"/>
-        <Effect ref="20" name="SingleStrand" id="10" startTime="46500" endTime="48000" palette="1"/>
-        <Effect ref="19" name="SingleStrand" id="11" startTime="48000" endTime="49500" palette="1"/>
-        <Effect ref="20" name="SingleStrand" id="12" startTime="49500" endTime="50950" palette="1"/>
-        <Effect ref="19" name="SingleStrand" id="13" startTime="50950" endTime="52350" palette="1"/>
-        <Effect ref="20" name="SingleStrand" id="14" startTime="52350" endTime="53850" palette="1"/>
-        <Effect ref="19" name="SingleStrand" id="15" startTime="53850" endTime="55300" palette="1"/>
-        <Effect ref="20" name="SingleStrand" id="16" startTime="55300" endTime="56800" palette="1"/>
-        <Effect ref="19" name="SingleStrand" id="17" startTime="56800" endTime="58200" palette="1"/>
-        <Effect ref="20" name="SingleStrand" id="18" startTime="58200" endTime="59800" palette="1"/>
-        <Effect ref="19" name="SingleStrand" id="19" startTime="59800" endTime="60750" palette="1"/>
-        <Effect ref="21" name="SingleStrand" id="20" startTime="60750" endTime="62100" palette="1"/>
-        <Effect ref="22" name="SingleStrand" id="21" startTime="131350" endTime="135700" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="22" startTime="137250" endTime="141500" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="23" startTime="143000" endTime="147300" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="24" startTime="150175" endTime="153100" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="25" startTime="156000" endTime="158775" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="26" startTime="161650" endTime="164500" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="27" startTime="167400" endTime="170250" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="28" startTime="173150" endTime="175950" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="29" startTime="178800" endTime="181650" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="30" startTime="184475" endTime="187350" palette="16"/>
-        <Effect ref="22" name="SingleStrand" id="31" startTime="188775" endTime="190200" palette="16"/>
+        <Effect ref="21" name="Color Wash" startTime="11600" endTime="17200" palette="10"/>
+        <Effect ref="2" name="Color Wash" id="1" startTime="17200" endTime="23050" palette="11"/>
+        <Effect ref="2" name="Color Wash" id="2" startTime="23050" endTime="28650" palette="12"/>
+        <Effect ref="2" name="Color Wash" id="3" startTime="28650" endTime="35700" palette="13"/>
+        <Effect ref="22" name="On" id="4" startTime="35700" endTime="38650" palette="14"/>
+        <Effect ref="23" name="SingleStrand" id="5" startTime="39250" endTime="40700" palette="1"/>
+        <Effect ref="24" name="SingleStrand" id="6" startTime="40700" endTime="42200" palette="1"/>
+        <Effect ref="25" name="SingleStrand" id="7" startTime="42200" endTime="43600" palette="1"/>
+        <Effect ref="24" name="SingleStrand" id="8" startTime="43600" endTime="45050" palette="1"/>
+        <Effect ref="25" name="SingleStrand" id="9" startTime="45050" endTime="46500" palette="1"/>
+        <Effect ref="24" name="SingleStrand" id="10" startTime="46500" endTime="48000" palette="1"/>
+        <Effect ref="25" name="SingleStrand" id="11" startTime="48000" endTime="49500" palette="1"/>
+        <Effect ref="24" name="SingleStrand" id="12" startTime="49500" endTime="50950" palette="1"/>
+        <Effect ref="25" name="SingleStrand" id="13" startTime="50950" endTime="52350" palette="1"/>
+        <Effect ref="24" name="SingleStrand" id="14" startTime="52350" endTime="53850" palette="1"/>
+        <Effect ref="25" name="SingleStrand" id="15" startTime="53850" endTime="55300" palette="1"/>
+        <Effect ref="24" name="SingleStrand" id="16" startTime="55300" endTime="56800" palette="1"/>
+        <Effect ref="25" name="SingleStrand" id="17" startTime="56800" endTime="58200" palette="1"/>
+        <Effect ref="24" name="SingleStrand" id="18" startTime="58200" endTime="59800" palette="1"/>
+        <Effect ref="25" name="SingleStrand" id="19" startTime="59800" endTime="60750" palette="1"/>
+        <Effect ref="26" name="SingleStrand" id="20" startTime="60750" endTime="62100" palette="1"/>
+        <Effect ref="27" name="SingleStrand" id="21" startTime="131350" endTime="135700" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="22" startTime="137250" endTime="141500" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="23" startTime="143000" endTime="147300" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="24" startTime="150175" endTime="153100" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="25" startTime="156000" endTime="158775" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="26" startTime="161650" endTime="164500" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="27" startTime="167400" endTime="170250" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="28" startTime="173150" endTime="175950" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="29" startTime="178800" endTime="181650" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="30" startTime="184475" endTime="187350" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="31" startTime="188775" endTime="190200" palette="15"/>
+        <Effect ref="2" name="Color Wash" id="32" startTime="190200" endTime="190675" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="33" startTime="190675" endTime="191150" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="34" startTime="191150" endTime="191600" palette="3"/>
+        <Effect ref="20" name="Color Wash" id="35" startTime="191600" endTime="193050" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Corner Bush">
@@ -1958,354 +2015,585 @@
     </Element>
     <Element type="model" name="Boscoyo ChromaCane 1">
       <EffectLayer>
-        <Effect ref="13" name="Morph" startTime="250" endTime="1250" palette="4"/>
-        <Effect ref="13" name="Morph" id="1" startTime="1250" endTime="3100" palette="4"/>
-        <Effect ref="13" name="Morph" id="2" startTime="3100" endTime="4050" palette="4"/>
-        <Effect ref="13" name="Morph" id="3" startTime="4050" endTime="5050" palette="4"/>
-        <Effect ref="13" name="Morph" id="4" startTime="5050" endTime="5950" palette="4"/>
-        <Effect ref="13" name="Morph" id="5" startTime="5950" endTime="6950" palette="4"/>
-        <Effect ref="13" name="Morph" id="6" startTime="6950" endTime="8850" palette="4"/>
-        <Effect ref="13" name="Morph" id="7" startTime="8850" endTime="10200" palette="4"/>
-        <Effect ref="13" name="Morph" id="8" startTime="10200" endTime="11250" palette="4"/>
-        <Effect ref="13" name="Morph" id="9" startTime="11250" endTime="12250" palette="4"/>
-        <Effect ref="13" name="Morph" id="10" startTime="12250" endTime="13200" palette="4"/>
-        <Effect ref="13" name="Morph" id="11" startTime="13200" endTime="15150" palette="4"/>
-        <Effect ref="13" name="Morph" id="12" startTime="15150" endTime="15600" palette="4"/>
-        <Effect ref="13" name="Morph" id="13" startTime="15600" endTime="16600" palette="4"/>
-        <Effect ref="13" name="Morph" id="14" startTime="16600" endTime="17950" palette="4"/>
-        <Effect ref="13" name="Morph" id="15" startTime="17950" endTime="20400" palette="4"/>
-        <Effect ref="13" name="Morph" id="16" startTime="20400" endTime="21350" palette="4"/>
-        <Effect ref="13" name="Morph" id="17" startTime="21350" endTime="22300" palette="4"/>
-        <Effect ref="13" name="Morph" id="18" startTime="22300" endTime="23800" palette="4"/>
-        <Effect ref="13" name="Morph" id="19" startTime="23800" endTime="26250" palette="4"/>
-        <Effect ref="13" name="Morph" id="20" startTime="26250" endTime="26950" palette="4"/>
-        <Effect ref="13" name="Morph" id="21" startTime="26950" endTime="27650" palette="4"/>
-        <Effect ref="13" name="Morph" id="22" startTime="27650" endTime="28650" palette="4"/>
-        <Effect ref="13" name="Morph" id="23" startTime="28650" endTime="29600" palette="4"/>
-        <Effect ref="13" name="Morph" id="24" startTime="29600" endTime="30600" palette="4"/>
-        <Effect ref="13" name="Morph" id="25" startTime="30600" endTime="32800" palette="4"/>
-        <Effect ref="13" name="Morph" id="26" startTime="62100" endTime="63100" palette="4"/>
-        <Effect ref="13" name="Morph" id="27" startTime="63100" endTime="64875" palette="4"/>
-        <Effect ref="13" name="Morph" id="28" startTime="64875" endTime="65600" palette="4"/>
-        <Effect ref="13" name="Morph" id="29" startTime="65600" endTime="66350" palette="4"/>
-        <Effect ref="13" name="Morph" id="30" startTime="66350" endTime="67225" palette="4"/>
-        <Effect ref="13" name="Morph" id="31" startTime="67225" endTime="68250" palette="4"/>
-        <Effect ref="13" name="Morph" id="32" startTime="68250" endTime="69200" palette="4"/>
-        <Effect ref="13" name="Morph" id="33" startTime="69200" endTime="71350" palette="4"/>
-        <Effect ref="13" name="Morph" id="34" startTime="71350" endTime="72525" palette="4"/>
-        <Effect ref="13" name="Morph" id="35" startTime="72525" endTime="73500" palette="4"/>
-        <Effect ref="13" name="Morph" id="36" startTime="218575" endTime="219575" palette="4"/>
-        <Effect ref="13" name="Morph" id="37" startTime="219575" endTime="221750" palette="4"/>
-        <Effect ref="13" name="Morph" id="38" startTime="221750" endTime="222600" palette="4"/>
-        <Effect ref="13" name="Morph" id="39" startTime="222600" endTime="224275" palette="4"/>
-        <Effect ref="13" name="Morph" id="40" startTime="224275" endTime="232150" palette="10"/>
+        <Effect ref="17" name="Morph" startTime="250" endTime="1250" palette="3"/>
+        <Effect ref="17" name="Morph" id="1" startTime="1250" endTime="3100" palette="3"/>
+        <Effect ref="17" name="Morph" id="2" startTime="3100" endTime="4050" palette="3"/>
+        <Effect ref="17" name="Morph" id="3" startTime="4050" endTime="5050" palette="3"/>
+        <Effect ref="17" name="Morph" id="4" startTime="5050" endTime="5950" palette="3"/>
+        <Effect ref="17" name="Morph" id="5" startTime="5950" endTime="6950" palette="3"/>
+        <Effect ref="17" name="Morph" id="6" startTime="6950" endTime="8850" palette="3"/>
+        <Effect ref="17" name="Morph" id="7" startTime="8850" endTime="10200" palette="3"/>
+        <Effect ref="17" name="Morph" id="8" startTime="10200" endTime="11250" palette="3"/>
+        <Effect ref="17" name="Morph" id="9" startTime="11250" endTime="12250" palette="3"/>
+        <Effect ref="17" name="Morph" id="10" startTime="12250" endTime="13200" palette="3"/>
+        <Effect ref="17" name="Morph" id="11" startTime="13200" endTime="15150" palette="3"/>
+        <Effect ref="17" name="Morph" id="12" startTime="15150" endTime="15600" palette="3"/>
+        <Effect ref="17" name="Morph" id="13" startTime="15600" endTime="16600" palette="3"/>
+        <Effect ref="17" name="Morph" id="14" startTime="16600" endTime="17950" palette="3"/>
+        <Effect ref="17" name="Morph" id="15" startTime="17950" endTime="20400" palette="3"/>
+        <Effect ref="17" name="Morph" id="16" startTime="20400" endTime="21350" palette="3"/>
+        <Effect ref="17" name="Morph" id="17" startTime="21350" endTime="22300" palette="3"/>
+        <Effect ref="17" name="Morph" id="18" startTime="22300" endTime="23800" palette="3"/>
+        <Effect ref="17" name="Morph" id="19" startTime="23800" endTime="26250" palette="3"/>
+        <Effect ref="17" name="Morph" id="20" startTime="26250" endTime="26950" palette="3"/>
+        <Effect ref="17" name="Morph" id="21" startTime="26950" endTime="27650" palette="3"/>
+        <Effect ref="17" name="Morph" id="22" startTime="27650" endTime="28650" palette="3"/>
+        <Effect ref="17" name="Morph" id="23" startTime="28650" endTime="29600" palette="3"/>
+        <Effect ref="17" name="Morph" id="24" startTime="29600" endTime="30600" palette="3"/>
+        <Effect ref="17" name="Morph" id="25" startTime="30600" endTime="32800" palette="3"/>
+        <Effect ref="17" name="Morph" id="26" startTime="62100" endTime="63100" palette="3"/>
+        <Effect ref="17" name="Morph" id="27" startTime="63100" endTime="64875" palette="3"/>
+        <Effect ref="17" name="Morph" id="28" startTime="64875" endTime="65600" palette="3"/>
+        <Effect ref="17" name="Morph" id="29" startTime="65600" endTime="66350" palette="3"/>
+        <Effect ref="17" name="Morph" id="30" startTime="66350" endTime="67225" palette="3"/>
+        <Effect ref="17" name="Morph" id="31" startTime="67225" endTime="68250" palette="3"/>
+        <Effect ref="17" name="Morph" id="32" startTime="68250" endTime="69200" palette="3"/>
+        <Effect ref="17" name="Morph" id="33" startTime="69200" endTime="71350" palette="3"/>
+        <Effect ref="17" name="Morph" id="34" startTime="71350" endTime="72525" palette="3"/>
+        <Effect ref="28" name="Morph" id="35" startTime="72525" endTime="75000" palette="3"/>
+        <Effect ref="28" name="Morph" id="36" startTime="75000" endTime="76900" palette="3"/>
+        <Effect ref="28" name="Morph" id="37" startTime="76900" endTime="77350" palette="3"/>
+        <Effect ref="28" name="Morph" id="38" startTime="77350" endTime="78375" palette="3"/>
+        <Effect ref="28" name="Morph" id="39" startTime="78375" endTime="79300" palette="3"/>
+        <Effect ref="28" name="Morph" id="40" startTime="79300" endTime="82150" palette="3"/>
+        <Effect ref="28" name="Morph" id="41" startTime="82150" endTime="83625" palette="3"/>
+        <Effect ref="28" name="Morph" id="42" startTime="83625" endTime="84600" palette="3"/>
+        <Effect ref="28" name="Morph" id="43" startTime="84600" endTime="85500" palette="3"/>
+        <Effect ref="28" name="Morph" id="44" startTime="85500" endTime="86450" palette="3"/>
+        <Effect ref="28" name="Morph" id="45" startTime="86450" endTime="88400" palette="3"/>
+        <Effect ref="28" name="Morph" id="46" startTime="88400" endTime="88800" palette="3"/>
+        <Effect ref="28" name="Morph" id="47" startTime="88800" endTime="89750" palette="3"/>
+        <Effect ref="28" name="Morph" id="48" startTime="89750" endTime="90700" palette="3"/>
+        <Effect ref="28" name="Morph" id="49" startTime="90700" endTime="91650" palette="3"/>
+        <Effect ref="28" name="Morph" id="50" startTime="91650" endTime="93500" palette="3"/>
+        <Effect ref="28" name="Morph" id="51" startTime="93500" endTime="94750" palette="3"/>
+        <Effect ref="17" name="Morph" id="52" startTime="218575" endTime="219575" palette="3"/>
+        <Effect ref="17" name="Morph" id="53" startTime="219575" endTime="221750" palette="3"/>
+        <Effect ref="17" name="Morph" id="54" startTime="221750" endTime="222600" palette="3"/>
+        <Effect ref="17" name="Morph" id="55" startTime="222600" endTime="224275" palette="3"/>
+        <Effect ref="17" name="Morph" id="56" startTime="224275" endTime="232150" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Boscoyo ChromaCane 2">
       <EffectLayer>
-        <Effect ref="13" name="Morph" startTime="250" endTime="1250" palette="4"/>
-        <Effect ref="13" name="Morph" id="1" startTime="1250" endTime="3100" palette="4"/>
-        <Effect ref="13" name="Morph" id="2" startTime="3100" endTime="4050" palette="4"/>
-        <Effect ref="13" name="Morph" id="3" startTime="4050" endTime="5050" palette="4"/>
-        <Effect ref="13" name="Morph" id="4" startTime="5050" endTime="5950" palette="4"/>
-        <Effect ref="13" name="Morph" id="5" startTime="5950" endTime="6950" palette="4"/>
-        <Effect ref="13" name="Morph" id="6" startTime="6950" endTime="8850" palette="4"/>
-        <Effect ref="13" name="Morph" id="7" startTime="8850" endTime="10200" palette="4"/>
-        <Effect ref="13" name="Morph" id="8" startTime="10200" endTime="11250" palette="4"/>
-        <Effect ref="13" name="Morph" id="9" startTime="11250" endTime="12250" palette="4"/>
-        <Effect ref="13" name="Morph" id="10" startTime="12250" endTime="13200" palette="4"/>
-        <Effect ref="13" name="Morph" id="11" startTime="13200" endTime="15150" palette="4"/>
-        <Effect ref="13" name="Morph" id="12" startTime="15150" endTime="15600" palette="4"/>
-        <Effect ref="13" name="Morph" id="13" startTime="15600" endTime="16600" palette="4"/>
-        <Effect ref="13" name="Morph" id="14" startTime="16600" endTime="17950" palette="4"/>
-        <Effect ref="13" name="Morph" id="15" startTime="17950" endTime="20400" palette="4"/>
-        <Effect ref="13" name="Morph" id="16" startTime="20400" endTime="21350" palette="4"/>
-        <Effect ref="13" name="Morph" id="17" startTime="21350" endTime="22300" palette="4"/>
-        <Effect ref="13" name="Morph" id="18" startTime="22300" endTime="23800" palette="4"/>
-        <Effect ref="13" name="Morph" id="19" startTime="23800" endTime="26250" palette="4"/>
-        <Effect ref="13" name="Morph" id="20" startTime="26250" endTime="26950" palette="4"/>
-        <Effect ref="13" name="Morph" id="21" startTime="26950" endTime="27650" palette="4"/>
-        <Effect ref="13" name="Morph" id="22" startTime="27650" endTime="28650" palette="4"/>
-        <Effect ref="13" name="Morph" id="23" startTime="28650" endTime="29600" palette="4"/>
-        <Effect ref="13" name="Morph" id="24" startTime="29600" endTime="30600" palette="4"/>
-        <Effect ref="13" name="Morph" id="25" startTime="30600" endTime="32800" palette="4"/>
-        <Effect ref="13" name="Morph" id="26" startTime="62100" endTime="63100" palette="4"/>
-        <Effect ref="13" name="Morph" id="27" startTime="63100" endTime="64875" palette="4"/>
-        <Effect ref="13" name="Morph" id="28" startTime="64875" endTime="65600" palette="4"/>
-        <Effect ref="13" name="Morph" id="29" startTime="65600" endTime="66350" palette="4"/>
-        <Effect ref="13" name="Morph" id="30" startTime="66350" endTime="67225" palette="4"/>
-        <Effect ref="13" name="Morph" id="31" startTime="67225" endTime="68250" palette="4"/>
-        <Effect ref="13" name="Morph" id="32" startTime="68250" endTime="69200" palette="4"/>
-        <Effect ref="13" name="Morph" id="33" startTime="69200" endTime="71350" palette="4"/>
-        <Effect ref="13" name="Morph" id="34" startTime="71350" endTime="72525" palette="4"/>
-        <Effect ref="13" name="Morph" id="35" startTime="72525" endTime="73500" palette="4"/>
-        <Effect ref="13" name="Morph" id="36" startTime="218575" endTime="219575" palette="4"/>
-        <Effect ref="13" name="Morph" id="37" startTime="219575" endTime="221750" palette="4"/>
-        <Effect ref="13" name="Morph" id="38" startTime="221750" endTime="222600" palette="4"/>
-        <Effect ref="13" name="Morph" id="39" startTime="222600" endTime="224275" palette="4"/>
-        <Effect ref="13" name="Morph" id="40" startTime="224275" endTime="232150" palette="10"/>
+        <Effect ref="17" name="Morph" startTime="250" endTime="1250" palette="3"/>
+        <Effect ref="17" name="Morph" id="1" startTime="1250" endTime="3100" palette="3"/>
+        <Effect ref="17" name="Morph" id="2" startTime="3100" endTime="4050" palette="3"/>
+        <Effect ref="17" name="Morph" id="3" startTime="4050" endTime="5050" palette="3"/>
+        <Effect ref="17" name="Morph" id="4" startTime="5050" endTime="5950" palette="3"/>
+        <Effect ref="17" name="Morph" id="5" startTime="5950" endTime="6950" palette="3"/>
+        <Effect ref="17" name="Morph" id="6" startTime="6950" endTime="8850" palette="3"/>
+        <Effect ref="17" name="Morph" id="7" startTime="8850" endTime="10200" palette="3"/>
+        <Effect ref="17" name="Morph" id="8" startTime="10200" endTime="11250" palette="3"/>
+        <Effect ref="17" name="Morph" id="9" startTime="11250" endTime="12250" palette="3"/>
+        <Effect ref="17" name="Morph" id="10" startTime="12250" endTime="13200" palette="3"/>
+        <Effect ref="17" name="Morph" id="11" startTime="13200" endTime="15150" palette="3"/>
+        <Effect ref="17" name="Morph" id="12" startTime="15150" endTime="15600" palette="3"/>
+        <Effect ref="17" name="Morph" id="13" startTime="15600" endTime="16600" palette="3"/>
+        <Effect ref="17" name="Morph" id="14" startTime="16600" endTime="17950" palette="3"/>
+        <Effect ref="17" name="Morph" id="15" startTime="17950" endTime="20400" palette="3"/>
+        <Effect ref="17" name="Morph" id="16" startTime="20400" endTime="21350" palette="3"/>
+        <Effect ref="17" name="Morph" id="17" startTime="21350" endTime="22300" palette="3"/>
+        <Effect ref="17" name="Morph" id="18" startTime="22300" endTime="23800" palette="3"/>
+        <Effect ref="17" name="Morph" id="19" startTime="23800" endTime="26250" palette="3"/>
+        <Effect ref="17" name="Morph" id="20" startTime="26250" endTime="26950" palette="3"/>
+        <Effect ref="17" name="Morph" id="21" startTime="26950" endTime="27650" palette="3"/>
+        <Effect ref="17" name="Morph" id="22" startTime="27650" endTime="28650" palette="3"/>
+        <Effect ref="17" name="Morph" id="23" startTime="28650" endTime="29600" palette="3"/>
+        <Effect ref="17" name="Morph" id="24" startTime="29600" endTime="30600" palette="3"/>
+        <Effect ref="17" name="Morph" id="25" startTime="30600" endTime="32800" palette="3"/>
+        <Effect ref="17" name="Morph" id="26" startTime="62100" endTime="63100" palette="3"/>
+        <Effect ref="17" name="Morph" id="27" startTime="63100" endTime="64875" palette="3"/>
+        <Effect ref="17" name="Morph" id="28" startTime="64875" endTime="65600" palette="3"/>
+        <Effect ref="17" name="Morph" id="29" startTime="65600" endTime="66350" palette="3"/>
+        <Effect ref="17" name="Morph" id="30" startTime="66350" endTime="67225" palette="3"/>
+        <Effect ref="17" name="Morph" id="31" startTime="67225" endTime="68250" palette="3"/>
+        <Effect ref="17" name="Morph" id="32" startTime="68250" endTime="69200" palette="3"/>
+        <Effect ref="17" name="Morph" id="33" startTime="69200" endTime="71350" palette="3"/>
+        <Effect ref="17" name="Morph" id="34" startTime="71350" endTime="72525" palette="3"/>
+        <Effect ref="28" name="Morph" id="35" startTime="72525" endTime="75000" palette="3"/>
+        <Effect ref="28" name="Morph" id="36" startTime="75000" endTime="76900" palette="3"/>
+        <Effect ref="28" name="Morph" id="37" startTime="76900" endTime="77350" palette="3"/>
+        <Effect ref="28" name="Morph" id="38" startTime="77350" endTime="78375" palette="3"/>
+        <Effect ref="28" name="Morph" id="39" startTime="78375" endTime="79300" palette="3"/>
+        <Effect ref="28" name="Morph" id="40" startTime="79300" endTime="82150" palette="3"/>
+        <Effect ref="28" name="Morph" id="41" startTime="82150" endTime="83625" palette="3"/>
+        <Effect ref="28" name="Morph" id="42" startTime="83625" endTime="84600" palette="3"/>
+        <Effect ref="28" name="Morph" id="43" startTime="84600" endTime="85500" palette="3"/>
+        <Effect ref="28" name="Morph" id="44" startTime="85500" endTime="86450" palette="3"/>
+        <Effect ref="28" name="Morph" id="45" startTime="86450" endTime="88400" palette="3"/>
+        <Effect ref="28" name="Morph" id="46" startTime="88400" endTime="88800" palette="3"/>
+        <Effect ref="28" name="Morph" id="47" startTime="88800" endTime="89750" palette="3"/>
+        <Effect ref="28" name="Morph" id="48" startTime="89750" endTime="90700" palette="3"/>
+        <Effect ref="28" name="Morph" id="49" startTime="90700" endTime="91650" palette="3"/>
+        <Effect ref="28" name="Morph" id="50" startTime="91650" endTime="93500" palette="3"/>
+        <Effect ref="28" name="Morph" id="51" startTime="93500" endTime="94750" palette="3"/>
+        <Effect ref="17" name="Morph" id="52" startTime="218575" endTime="219575" palette="3"/>
+        <Effect ref="17" name="Morph" id="53" startTime="219575" endTime="221750" palette="3"/>
+        <Effect ref="17" name="Morph" id="54" startTime="221750" endTime="222600" palette="3"/>
+        <Effect ref="17" name="Morph" id="55" startTime="222600" endTime="224275" palette="3"/>
+        <Effect ref="17" name="Morph" id="56" startTime="224275" endTime="232150" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Boscoyo ChromaCane 3">
       <EffectLayer>
-        <Effect ref="13" name="Morph" startTime="750" endTime="1750" palette="4"/>
-        <Effect ref="13" name="Morph" id="1" startTime="1750" endTime="3600" palette="4"/>
-        <Effect ref="13" name="Morph" id="2" startTime="3600" endTime="4550" palette="4"/>
-        <Effect ref="13" name="Morph" id="3" startTime="4550" endTime="5500" palette="4"/>
-        <Effect ref="13" name="Morph" id="4" startTime="5500" endTime="6450" palette="4"/>
-        <Effect ref="13" name="Morph" id="5" startTime="6450" endTime="7400" palette="4"/>
-        <Effect ref="13" name="Morph" id="6" startTime="7400" endTime="9550" palette="4"/>
-        <Effect ref="13" name="Morph" id="7" startTime="9550" endTime="10800" palette="4"/>
-        <Effect ref="13" name="Morph" id="8" startTime="10800" endTime="11750" palette="4"/>
-        <Effect ref="13" name="Morph" id="9" startTime="11750" endTime="12750" palette="4"/>
-        <Effect ref="13" name="Morph" id="10" startTime="12750" endTime="14650" palette="4"/>
-        <Effect ref="13" name="Morph" id="11" startTime="14650" endTime="15350" palette="4"/>
-        <Effect ref="13" name="Morph" id="12" startTime="15350" endTime="16100" palette="4"/>
-        <Effect ref="13" name="Morph" id="13" startTime="16100" endTime="17550" palette="4"/>
-        <Effect ref="13" name="Morph" id="14" startTime="17550" endTime="18950" palette="4"/>
-        <Effect ref="13" name="Morph" id="15" startTime="18950" endTime="21050" palette="4"/>
-        <Effect ref="13" name="Morph" id="16" startTime="21050" endTime="21850" palette="4"/>
-        <Effect ref="13" name="Morph" id="17" startTime="21850" endTime="23300" palette="4"/>
-        <Effect ref="13" name="Morph" id="18" startTime="23300" endTime="24750" palette="4"/>
-        <Effect ref="13" name="Morph" id="19" startTime="24750" endTime="26750" palette="4"/>
-        <Effect ref="13" name="Morph" id="20" startTime="26750" endTime="27200" palette="4"/>
-        <Effect ref="13" name="Morph" id="21" startTime="27200" endTime="28150" palette="4"/>
-        <Effect ref="13" name="Morph" id="22" startTime="28150" endTime="29150" palette="4"/>
-        <Effect ref="13" name="Morph" id="23" startTime="29150" endTime="30100" palette="4"/>
-        <Effect ref="13" name="Morph" id="24" startTime="30100" endTime="32100" palette="4"/>
-        <Effect ref="13" name="Morph" id="25" startTime="32100" endTime="33300" palette="4"/>
-        <Effect ref="13" name="Morph" id="26" startTime="62600" endTime="63550" palette="4"/>
-        <Effect ref="13" name="Morph" id="27" startTime="63550" endTime="65400" palette="4"/>
-        <Effect ref="13" name="Morph" id="28" startTime="65400" endTime="65850" palette="4"/>
-        <Effect ref="13" name="Morph" id="29" startTime="65850" endTime="66725" palette="4"/>
-        <Effect ref="13" name="Morph" id="30" startTime="66725" endTime="67725" palette="4"/>
-        <Effect ref="13" name="Morph" id="31" startTime="67725" endTime="68700" palette="4"/>
-        <Effect ref="13" name="Morph" id="32" startTime="68700" endTime="70600" palette="4"/>
-        <Effect ref="13" name="Morph" id="33" startTime="70600" endTime="72050" palette="4"/>
-        <Effect ref="13" name="Morph" id="34" startTime="72050" endTime="73500" palette="4"/>
-        <Effect ref="13" name="Morph" id="35" startTime="219150" endTime="220075" palette="4"/>
-        <Effect ref="13" name="Morph" id="36" startTime="220075" endTime="222250" palette="4"/>
-        <Effect ref="13" name="Morph" id="37" startTime="222250" endTime="223100" palette="4"/>
-        <Effect ref="13" name="Morph" id="38" startTime="223100" endTime="232300" palette="10"/>
+        <Effect ref="17" name="Morph" startTime="750" endTime="1750" palette="3"/>
+        <Effect ref="17" name="Morph" id="1" startTime="1750" endTime="3600" palette="3"/>
+        <Effect ref="17" name="Morph" id="2" startTime="3600" endTime="4550" palette="3"/>
+        <Effect ref="17" name="Morph" id="3" startTime="4550" endTime="5500" palette="3"/>
+        <Effect ref="17" name="Morph" id="4" startTime="5500" endTime="6450" palette="3"/>
+        <Effect ref="17" name="Morph" id="5" startTime="6450" endTime="7400" palette="3"/>
+        <Effect ref="17" name="Morph" id="6" startTime="7400" endTime="9550" palette="3"/>
+        <Effect ref="17" name="Morph" id="7" startTime="9550" endTime="10800" palette="3"/>
+        <Effect ref="17" name="Morph" id="8" startTime="10800" endTime="11750" palette="3"/>
+        <Effect ref="17" name="Morph" id="9" startTime="11750" endTime="12750" palette="3"/>
+        <Effect ref="17" name="Morph" id="10" startTime="12750" endTime="14650" palette="3"/>
+        <Effect ref="17" name="Morph" id="11" startTime="14650" endTime="15350" palette="3"/>
+        <Effect ref="17" name="Morph" id="12" startTime="15350" endTime="16100" palette="3"/>
+        <Effect ref="17" name="Morph" id="13" startTime="16100" endTime="17550" palette="3"/>
+        <Effect ref="17" name="Morph" id="14" startTime="17550" endTime="18950" palette="3"/>
+        <Effect ref="17" name="Morph" id="15" startTime="18950" endTime="21050" palette="3"/>
+        <Effect ref="17" name="Morph" id="16" startTime="21050" endTime="21850" palette="3"/>
+        <Effect ref="17" name="Morph" id="17" startTime="21850" endTime="23300" palette="3"/>
+        <Effect ref="17" name="Morph" id="18" startTime="23300" endTime="24750" palette="3"/>
+        <Effect ref="17" name="Morph" id="19" startTime="24750" endTime="26750" palette="3"/>
+        <Effect ref="17" name="Morph" id="20" startTime="26750" endTime="27200" palette="3"/>
+        <Effect ref="17" name="Morph" id="21" startTime="27200" endTime="28150" palette="3"/>
+        <Effect ref="17" name="Morph" id="22" startTime="28150" endTime="29150" palette="3"/>
+        <Effect ref="17" name="Morph" id="23" startTime="29150" endTime="30100" palette="3"/>
+        <Effect ref="17" name="Morph" id="24" startTime="30100" endTime="32100" palette="3"/>
+        <Effect ref="17" name="Morph" id="25" startTime="32100" endTime="33300" palette="3"/>
+        <Effect ref="17" name="Morph" id="26" startTime="62600" endTime="63550" palette="3"/>
+        <Effect ref="17" name="Morph" id="27" startTime="63550" endTime="65400" palette="3"/>
+        <Effect ref="17" name="Morph" id="28" startTime="65400" endTime="65850" palette="3"/>
+        <Effect ref="17" name="Morph" id="29" startTime="65850" endTime="66725" palette="3"/>
+        <Effect ref="17" name="Morph" id="30" startTime="66725" endTime="67725" palette="3"/>
+        <Effect ref="17" name="Morph" id="31" startTime="67725" endTime="68700" palette="3"/>
+        <Effect ref="17" name="Morph" id="32" startTime="68700" endTime="70600" palette="3"/>
+        <Effect ref="17" name="Morph" id="33" startTime="70600" endTime="72050" palette="3"/>
+        <Effect ref="28" name="Morph" id="34" startTime="72050" endTime="73525" palette="3"/>
+        <Effect ref="28" name="Morph" id="35" startTime="73525" endTime="76400" palette="3"/>
+        <Effect ref="28" name="Morph" id="36" startTime="76400" endTime="77100" palette="3"/>
+        <Effect ref="28" name="Morph" id="37" startTime="77100" endTime="77850" palette="3"/>
+        <Effect ref="28" name="Morph" id="38" startTime="77850" endTime="78775" palette="3"/>
+        <Effect ref="28" name="Morph" id="39" startTime="78775" endTime="80750" palette="3"/>
+        <Effect ref="28" name="Morph" id="40" startTime="80750" endTime="82900" palette="3"/>
+        <Effect ref="28" name="Morph" id="41" startTime="82900" endTime="84100" palette="3"/>
+        <Effect ref="28" name="Morph" id="42" startTime="84100" endTime="85000" palette="3"/>
+        <Effect ref="28" name="Morph" id="43" startTime="85000" endTime="86000" palette="3"/>
+        <Effect ref="28" name="Morph" id="44" startTime="86000" endTime="87900" palette="3"/>
+        <Effect ref="28" name="Morph" id="45" startTime="87900" endTime="88550" palette="3"/>
+        <Effect ref="28" name="Morph" id="46" startTime="88550" endTime="89250" palette="3"/>
+        <Effect ref="28" name="Morph" id="47" startTime="89250" endTime="90250" palette="3"/>
+        <Effect ref="28" name="Morph" id="48" startTime="90250" endTime="91150" palette="3"/>
+        <Effect ref="28" name="Morph" id="49" startTime="91150" endTime="92100" palette="3"/>
+        <Effect ref="28" name="Morph" id="50" startTime="92100" endTime="94150" palette="3"/>
+        <Effect ref="17" name="Morph" id="51" startTime="219150" endTime="220075" palette="3"/>
+        <Effect ref="17" name="Morph" id="52" startTime="220075" endTime="222250" palette="3"/>
+        <Effect ref="17" name="Morph" id="53" startTime="222250" endTime="223100" palette="3"/>
+        <Effect ref="17" name="Morph" id="54" startTime="223100" endTime="232300" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Boscoyo ChromaCane 4">
       <EffectLayer>
-        <Effect ref="13" name="Morph" startTime="750" endTime="1750" palette="4"/>
-        <Effect ref="13" name="Morph" id="1" startTime="1750" endTime="3600" palette="4"/>
-        <Effect ref="13" name="Morph" id="2" startTime="3600" endTime="4550" palette="4"/>
-        <Effect ref="13" name="Morph" id="3" startTime="4550" endTime="5500" palette="4"/>
-        <Effect ref="13" name="Morph" id="4" startTime="5500" endTime="6450" palette="4"/>
-        <Effect ref="13" name="Morph" id="5" startTime="6450" endTime="7400" palette="4"/>
-        <Effect ref="13" name="Morph" id="6" startTime="7400" endTime="9550" palette="4"/>
-        <Effect ref="13" name="Morph" id="7" startTime="9550" endTime="10800" palette="4"/>
-        <Effect ref="13" name="Morph" id="8" startTime="10800" endTime="11750" palette="4"/>
-        <Effect ref="13" name="Morph" id="9" startTime="11750" endTime="12750" palette="4"/>
-        <Effect ref="13" name="Morph" id="10" startTime="12750" endTime="14650" palette="4"/>
-        <Effect ref="13" name="Morph" id="11" startTime="14650" endTime="15350" palette="4"/>
-        <Effect ref="13" name="Morph" id="12" startTime="15350" endTime="16100" palette="4"/>
-        <Effect ref="13" name="Morph" id="13" startTime="16100" endTime="17550" palette="4"/>
-        <Effect ref="13" name="Morph" id="14" startTime="17550" endTime="18950" palette="4"/>
-        <Effect ref="13" name="Morph" id="15" startTime="18950" endTime="21050" palette="4"/>
-        <Effect ref="13" name="Morph" id="16" startTime="21050" endTime="21850" palette="4"/>
-        <Effect ref="13" name="Morph" id="17" startTime="21850" endTime="23300" palette="4"/>
-        <Effect ref="13" name="Morph" id="18" startTime="23300" endTime="24750" palette="4"/>
-        <Effect ref="13" name="Morph" id="19" startTime="24750" endTime="26750" palette="4"/>
-        <Effect ref="13" name="Morph" id="20" startTime="26750" endTime="27200" palette="4"/>
-        <Effect ref="13" name="Morph" id="21" startTime="27200" endTime="28150" palette="4"/>
-        <Effect ref="13" name="Morph" id="22" startTime="28150" endTime="29150" palette="4"/>
-        <Effect ref="13" name="Morph" id="23" startTime="29150" endTime="30100" palette="4"/>
-        <Effect ref="13" name="Morph" id="24" startTime="30100" endTime="32100" palette="4"/>
-        <Effect ref="13" name="Morph" id="25" startTime="32100" endTime="33300" palette="4"/>
-        <Effect ref="13" name="Morph" id="26" startTime="62600" endTime="63550" palette="4"/>
-        <Effect ref="13" name="Morph" id="27" startTime="63550" endTime="65400" palette="4"/>
-        <Effect ref="13" name="Morph" id="28" startTime="65400" endTime="65850" palette="4"/>
-        <Effect ref="13" name="Morph" id="29" startTime="65850" endTime="66725" palette="4"/>
-        <Effect ref="13" name="Morph" id="30" startTime="66725" endTime="67725" palette="4"/>
-        <Effect ref="13" name="Morph" id="31" startTime="67725" endTime="68700" palette="4"/>
-        <Effect ref="13" name="Morph" id="32" startTime="68700" endTime="70600" palette="4"/>
-        <Effect ref="13" name="Morph" id="33" startTime="70600" endTime="72050" palette="4"/>
-        <Effect ref="13" name="Morph" id="34" startTime="72050" endTime="73500" palette="4"/>
-        <Effect ref="13" name="Morph" id="35" startTime="219150" endTime="220075" palette="4"/>
-        <Effect ref="13" name="Morph" id="36" startTime="220075" endTime="222250" palette="4"/>
-        <Effect ref="13" name="Morph" id="37" startTime="222250" endTime="223100" palette="4"/>
-        <Effect ref="13" name="Morph" id="38" startTime="223100" endTime="232300" palette="10"/>
+        <Effect ref="17" name="Morph" startTime="750" endTime="1750" palette="3"/>
+        <Effect ref="17" name="Morph" id="1" startTime="1750" endTime="3600" palette="3"/>
+        <Effect ref="17" name="Morph" id="2" startTime="3600" endTime="4550" palette="3"/>
+        <Effect ref="17" name="Morph" id="3" startTime="4550" endTime="5500" palette="3"/>
+        <Effect ref="17" name="Morph" id="4" startTime="5500" endTime="6450" palette="3"/>
+        <Effect ref="17" name="Morph" id="5" startTime="6450" endTime="7400" palette="3"/>
+        <Effect ref="17" name="Morph" id="6" startTime="7400" endTime="9550" palette="3"/>
+        <Effect ref="17" name="Morph" id="7" startTime="9550" endTime="10800" palette="3"/>
+        <Effect ref="17" name="Morph" id="8" startTime="10800" endTime="11750" palette="3"/>
+        <Effect ref="17" name="Morph" id="9" startTime="11750" endTime="12750" palette="3"/>
+        <Effect ref="17" name="Morph" id="10" startTime="12750" endTime="14650" palette="3"/>
+        <Effect ref="17" name="Morph" id="11" startTime="14650" endTime="15350" palette="3"/>
+        <Effect ref="17" name="Morph" id="12" startTime="15350" endTime="16100" palette="3"/>
+        <Effect ref="17" name="Morph" id="13" startTime="16100" endTime="17550" palette="3"/>
+        <Effect ref="17" name="Morph" id="14" startTime="17550" endTime="18950" palette="3"/>
+        <Effect ref="17" name="Morph" id="15" startTime="18950" endTime="21050" palette="3"/>
+        <Effect ref="17" name="Morph" id="16" startTime="21050" endTime="21850" palette="3"/>
+        <Effect ref="17" name="Morph" id="17" startTime="21850" endTime="23300" palette="3"/>
+        <Effect ref="17" name="Morph" id="18" startTime="23300" endTime="24750" palette="3"/>
+        <Effect ref="17" name="Morph" id="19" startTime="24750" endTime="26750" palette="3"/>
+        <Effect ref="17" name="Morph" id="20" startTime="26750" endTime="27200" palette="3"/>
+        <Effect ref="17" name="Morph" id="21" startTime="27200" endTime="28150" palette="3"/>
+        <Effect ref="17" name="Morph" id="22" startTime="28150" endTime="29150" palette="3"/>
+        <Effect ref="17" name="Morph" id="23" startTime="29150" endTime="30100" palette="3"/>
+        <Effect ref="17" name="Morph" id="24" startTime="30100" endTime="32100" palette="3"/>
+        <Effect ref="17" name="Morph" id="25" startTime="32100" endTime="33300" palette="3"/>
+        <Effect ref="17" name="Morph" id="26" startTime="62600" endTime="63550" palette="3"/>
+        <Effect ref="17" name="Morph" id="27" startTime="63550" endTime="65400" palette="3"/>
+        <Effect ref="17" name="Morph" id="28" startTime="65400" endTime="65850" palette="3"/>
+        <Effect ref="17" name="Morph" id="29" startTime="65850" endTime="66725" palette="3"/>
+        <Effect ref="17" name="Morph" id="30" startTime="66725" endTime="67725" palette="3"/>
+        <Effect ref="17" name="Morph" id="31" startTime="67725" endTime="68700" palette="3"/>
+        <Effect ref="17" name="Morph" id="32" startTime="68700" endTime="70600" palette="3"/>
+        <Effect ref="17" name="Morph" id="33" startTime="70600" endTime="72050" palette="3"/>
+        <Effect ref="28" name="Morph" id="34" startTime="72050" endTime="73525" palette="3"/>
+        <Effect ref="28" name="Morph" id="35" startTime="73525" endTime="76400" palette="3"/>
+        <Effect ref="28" name="Morph" id="36" startTime="76400" endTime="77100" palette="3"/>
+        <Effect ref="28" name="Morph" id="37" startTime="77100" endTime="77850" palette="3"/>
+        <Effect ref="28" name="Morph" id="38" startTime="77850" endTime="78775" palette="3"/>
+        <Effect ref="28" name="Morph" id="39" startTime="78775" endTime="80750" palette="3"/>
+        <Effect ref="28" name="Morph" id="40" startTime="80750" endTime="82900" palette="3"/>
+        <Effect ref="28" name="Morph" id="41" startTime="82900" endTime="84100" palette="3"/>
+        <Effect ref="28" name="Morph" id="42" startTime="84100" endTime="85000" palette="3"/>
+        <Effect ref="28" name="Morph" id="43" startTime="85000" endTime="86000" palette="3"/>
+        <Effect ref="28" name="Morph" id="44" startTime="86000" endTime="87900" palette="3"/>
+        <Effect ref="28" name="Morph" id="45" startTime="87900" endTime="88550" palette="3"/>
+        <Effect ref="28" name="Morph" id="46" startTime="88550" endTime="89250" palette="3"/>
+        <Effect ref="28" name="Morph" id="47" startTime="89250" endTime="90250" palette="3"/>
+        <Effect ref="28" name="Morph" id="48" startTime="90250" endTime="91150" palette="3"/>
+        <Effect ref="28" name="Morph" id="49" startTime="91150" endTime="92100" palette="3"/>
+        <Effect ref="28" name="Morph" id="50" startTime="92100" endTime="94150" palette="3"/>
+        <Effect ref="17" name="Morph" id="51" startTime="219150" endTime="220075" palette="3"/>
+        <Effect ref="17" name="Morph" id="52" startTime="220075" endTime="222250" palette="3"/>
+        <Effect ref="17" name="Morph" id="53" startTime="222250" endTime="223100" palette="3"/>
+        <Effect ref="17" name="Morph" id="54" startTime="223100" endTime="232300" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Boscoyo ChromaCane 5">
       <EffectLayer>
-        <Effect ref="13" name="Morph" startTime="750" endTime="1750" palette="4"/>
-        <Effect ref="13" name="Morph" id="1" startTime="1750" endTime="3600" palette="4"/>
-        <Effect ref="13" name="Morph" id="2" startTime="3600" endTime="4550" palette="4"/>
-        <Effect ref="13" name="Morph" id="3" startTime="4550" endTime="5500" palette="4"/>
-        <Effect ref="13" name="Morph" id="4" startTime="5500" endTime="6450" palette="4"/>
-        <Effect ref="13" name="Morph" id="5" startTime="6450" endTime="7400" palette="4"/>
-        <Effect ref="13" name="Morph" id="6" startTime="7400" endTime="9550" palette="4"/>
-        <Effect ref="13" name="Morph" id="7" startTime="9550" endTime="10800" palette="4"/>
-        <Effect ref="13" name="Morph" id="8" startTime="10800" endTime="11750" palette="4"/>
-        <Effect ref="13" name="Morph" id="9" startTime="11750" endTime="12750" palette="4"/>
-        <Effect ref="13" name="Morph" id="10" startTime="12750" endTime="14650" palette="4"/>
-        <Effect ref="13" name="Morph" id="11" startTime="14650" endTime="15350" palette="4"/>
-        <Effect ref="13" name="Morph" id="12" startTime="15350" endTime="16100" palette="4"/>
-        <Effect ref="13" name="Morph" id="13" startTime="16100" endTime="17550" palette="4"/>
-        <Effect ref="13" name="Morph" id="14" startTime="17550" endTime="18950" palette="4"/>
-        <Effect ref="13" name="Morph" id="15" startTime="18950" endTime="21050" palette="4"/>
-        <Effect ref="13" name="Morph" id="16" startTime="21050" endTime="21850" palette="4"/>
-        <Effect ref="13" name="Morph" id="17" startTime="21850" endTime="23300" palette="4"/>
-        <Effect ref="13" name="Morph" id="18" startTime="23300" endTime="24750" palette="4"/>
-        <Effect ref="13" name="Morph" id="19" startTime="24750" endTime="26750" palette="4"/>
-        <Effect ref="13" name="Morph" id="20" startTime="26750" endTime="27200" palette="4"/>
-        <Effect ref="13" name="Morph" id="21" startTime="27200" endTime="28150" palette="4"/>
-        <Effect ref="13" name="Morph" id="22" startTime="28150" endTime="29150" palette="4"/>
-        <Effect ref="13" name="Morph" id="23" startTime="29150" endTime="30100" palette="4"/>
-        <Effect ref="13" name="Morph" id="24" startTime="30100" endTime="32100" palette="4"/>
-        <Effect ref="13" name="Morph" id="25" startTime="32100" endTime="33300" palette="4"/>
-        <Effect ref="13" name="Morph" id="26" startTime="62600" endTime="63550" palette="4"/>
-        <Effect ref="13" name="Morph" id="27" startTime="63550" endTime="65400" palette="4"/>
-        <Effect ref="13" name="Morph" id="28" startTime="65400" endTime="65850" palette="4"/>
-        <Effect ref="13" name="Morph" id="29" startTime="65850" endTime="66725" palette="4"/>
-        <Effect ref="13" name="Morph" id="30" startTime="66725" endTime="67725" palette="4"/>
-        <Effect ref="13" name="Morph" id="31" startTime="67725" endTime="68700" palette="4"/>
-        <Effect ref="13" name="Morph" id="32" startTime="68700" endTime="70600" palette="4"/>
-        <Effect ref="13" name="Morph" id="33" startTime="70600" endTime="72050" palette="4"/>
-        <Effect ref="13" name="Morph" id="34" startTime="72050" endTime="73500" palette="4"/>
-        <Effect ref="13" name="Morph" id="35" startTime="219150" endTime="220075" palette="4"/>
-        <Effect ref="13" name="Morph" id="36" startTime="220075" endTime="222250" palette="4"/>
-        <Effect ref="13" name="Morph" id="37" startTime="222250" endTime="223100" palette="4"/>
-        <Effect ref="13" name="Morph" id="38" startTime="223100" endTime="232300" palette="10"/>
+        <Effect ref="17" name="Morph" startTime="750" endTime="1750" palette="3"/>
+        <Effect ref="17" name="Morph" id="1" startTime="1750" endTime="3600" palette="3"/>
+        <Effect ref="17" name="Morph" id="2" startTime="3600" endTime="4550" palette="3"/>
+        <Effect ref="17" name="Morph" id="3" startTime="4550" endTime="5500" palette="3"/>
+        <Effect ref="17" name="Morph" id="4" startTime="5500" endTime="6450" palette="3"/>
+        <Effect ref="17" name="Morph" id="5" startTime="6450" endTime="7400" palette="3"/>
+        <Effect ref="17" name="Morph" id="6" startTime="7400" endTime="9550" palette="3"/>
+        <Effect ref="17" name="Morph" id="7" startTime="9550" endTime="10800" palette="3"/>
+        <Effect ref="17" name="Morph" id="8" startTime="10800" endTime="11750" palette="3"/>
+        <Effect ref="17" name="Morph" id="9" startTime="11750" endTime="12750" palette="3"/>
+        <Effect ref="17" name="Morph" id="10" startTime="12750" endTime="14650" palette="3"/>
+        <Effect ref="17" name="Morph" id="11" startTime="14650" endTime="15350" palette="3"/>
+        <Effect ref="17" name="Morph" id="12" startTime="15350" endTime="16100" palette="3"/>
+        <Effect ref="17" name="Morph" id="13" startTime="16100" endTime="17550" palette="3"/>
+        <Effect ref="17" name="Morph" id="14" startTime="17550" endTime="18950" palette="3"/>
+        <Effect ref="17" name="Morph" id="15" startTime="18950" endTime="21050" palette="3"/>
+        <Effect ref="17" name="Morph" id="16" startTime="21050" endTime="21850" palette="3"/>
+        <Effect ref="17" name="Morph" id="17" startTime="21850" endTime="23300" palette="3"/>
+        <Effect ref="17" name="Morph" id="18" startTime="23300" endTime="24750" palette="3"/>
+        <Effect ref="17" name="Morph" id="19" startTime="24750" endTime="26750" palette="3"/>
+        <Effect ref="17" name="Morph" id="20" startTime="26750" endTime="27200" palette="3"/>
+        <Effect ref="17" name="Morph" id="21" startTime="27200" endTime="28150" palette="3"/>
+        <Effect ref="17" name="Morph" id="22" startTime="28150" endTime="29150" palette="3"/>
+        <Effect ref="17" name="Morph" id="23" startTime="29150" endTime="30100" palette="3"/>
+        <Effect ref="17" name="Morph" id="24" startTime="30100" endTime="32100" palette="3"/>
+        <Effect ref="17" name="Morph" id="25" startTime="32100" endTime="33300" palette="3"/>
+        <Effect ref="17" name="Morph" id="26" startTime="62600" endTime="63550" palette="3"/>
+        <Effect ref="17" name="Morph" id="27" startTime="63550" endTime="65400" palette="3"/>
+        <Effect ref="17" name="Morph" id="28" startTime="65400" endTime="65850" palette="3"/>
+        <Effect ref="17" name="Morph" id="29" startTime="65850" endTime="66725" palette="3"/>
+        <Effect ref="17" name="Morph" id="30" startTime="66725" endTime="67725" palette="3"/>
+        <Effect ref="17" name="Morph" id="31" startTime="67725" endTime="68700" palette="3"/>
+        <Effect ref="17" name="Morph" id="32" startTime="68700" endTime="70600" palette="3"/>
+        <Effect ref="17" name="Morph" id="33" startTime="70600" endTime="72050" palette="3"/>
+        <Effect ref="28" name="Morph" id="34" startTime="72050" endTime="73525" palette="3"/>
+        <Effect ref="28" name="Morph" id="35" startTime="73525" endTime="76400" palette="3"/>
+        <Effect ref="28" name="Morph" id="36" startTime="76400" endTime="77100" palette="3"/>
+        <Effect ref="28" name="Morph" id="37" startTime="77100" endTime="77850" palette="3"/>
+        <Effect ref="28" name="Morph" id="38" startTime="77850" endTime="78775" palette="3"/>
+        <Effect ref="28" name="Morph" id="39" startTime="78775" endTime="80750" palette="3"/>
+        <Effect ref="28" name="Morph" id="40" startTime="80750" endTime="82900" palette="3"/>
+        <Effect ref="28" name="Morph" id="41" startTime="82900" endTime="84100" palette="3"/>
+        <Effect ref="28" name="Morph" id="42" startTime="84100" endTime="85000" palette="3"/>
+        <Effect ref="28" name="Morph" id="43" startTime="85000" endTime="86000" palette="3"/>
+        <Effect ref="28" name="Morph" id="44" startTime="86000" endTime="87900" palette="3"/>
+        <Effect ref="28" name="Morph" id="45" startTime="87900" endTime="88550" palette="3"/>
+        <Effect ref="28" name="Morph" id="46" startTime="88550" endTime="89250" palette="3"/>
+        <Effect ref="28" name="Morph" id="47" startTime="89250" endTime="90250" palette="3"/>
+        <Effect ref="28" name="Morph" id="48" startTime="90250" endTime="91150" palette="3"/>
+        <Effect ref="28" name="Morph" id="49" startTime="91150" endTime="92100" palette="3"/>
+        <Effect ref="28" name="Morph" id="50" startTime="92100" endTime="94150" palette="3"/>
+        <Effect ref="17" name="Morph" id="51" startTime="219150" endTime="220075" palette="3"/>
+        <Effect ref="17" name="Morph" id="52" startTime="220075" endTime="222250" palette="3"/>
+        <Effect ref="17" name="Morph" id="53" startTime="222250" endTime="223100" palette="3"/>
+        <Effect ref="17" name="Morph" id="54" startTime="223100" endTime="232300" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Boscoyo ChromaCane 6">
       <EffectLayer>
-        <Effect ref="13" name="Morph" startTime="750" endTime="1750" palette="4"/>
-        <Effect ref="13" name="Morph" id="1" startTime="1750" endTime="3600" palette="4"/>
-        <Effect ref="13" name="Morph" id="2" startTime="3600" endTime="4550" palette="4"/>
-        <Effect ref="13" name="Morph" id="3" startTime="4550" endTime="5500" palette="4"/>
-        <Effect ref="13" name="Morph" id="4" startTime="5500" endTime="6450" palette="4"/>
-        <Effect ref="13" name="Morph" id="5" startTime="6450" endTime="7400" palette="4"/>
-        <Effect ref="13" name="Morph" id="6" startTime="7400" endTime="9550" palette="4"/>
-        <Effect ref="13" name="Morph" id="7" startTime="9550" endTime="10800" palette="4"/>
-        <Effect ref="13" name="Morph" id="8" startTime="10800" endTime="11750" palette="4"/>
-        <Effect ref="13" name="Morph" id="9" startTime="11750" endTime="12750" palette="4"/>
-        <Effect ref="13" name="Morph" id="10" startTime="12750" endTime="14650" palette="4"/>
-        <Effect ref="13" name="Morph" id="11" startTime="14650" endTime="15350" palette="4"/>
-        <Effect ref="13" name="Morph" id="12" startTime="15350" endTime="16100" palette="4"/>
-        <Effect ref="13" name="Morph" id="13" startTime="16100" endTime="17550" palette="4"/>
-        <Effect ref="13" name="Morph" id="14" startTime="17550" endTime="18950" palette="4"/>
-        <Effect ref="13" name="Morph" id="15" startTime="18950" endTime="21050" palette="4"/>
-        <Effect ref="13" name="Morph" id="16" startTime="21050" endTime="21850" palette="4"/>
-        <Effect ref="13" name="Morph" id="17" startTime="21850" endTime="23300" palette="4"/>
-        <Effect ref="13" name="Morph" id="18" startTime="23300" endTime="24750" palette="4"/>
-        <Effect ref="13" name="Morph" id="19" startTime="24750" endTime="26750" palette="4"/>
-        <Effect ref="13" name="Morph" id="20" startTime="26750" endTime="27200" palette="4"/>
-        <Effect ref="13" name="Morph" id="21" startTime="27200" endTime="28150" palette="4"/>
-        <Effect ref="13" name="Morph" id="22" startTime="28150" endTime="29150" palette="4"/>
-        <Effect ref="13" name="Morph" id="23" startTime="29150" endTime="30100" palette="4"/>
-        <Effect ref="13" name="Morph" id="24" startTime="30100" endTime="32100" palette="4"/>
-        <Effect ref="13" name="Morph" id="25" startTime="32100" endTime="33300" palette="4"/>
-        <Effect ref="13" name="Morph" id="26" startTime="62600" endTime="63550" palette="4"/>
-        <Effect ref="13" name="Morph" id="27" startTime="63550" endTime="65400" palette="4"/>
-        <Effect ref="13" name="Morph" id="28" startTime="65400" endTime="65850" palette="4"/>
-        <Effect ref="13" name="Morph" id="29" startTime="65850" endTime="66725" palette="4"/>
-        <Effect ref="13" name="Morph" id="30" startTime="66725" endTime="67725" palette="4"/>
-        <Effect ref="13" name="Morph" id="31" startTime="67725" endTime="68700" palette="4"/>
-        <Effect ref="13" name="Morph" id="32" startTime="68700" endTime="70600" palette="4"/>
-        <Effect ref="13" name="Morph" id="33" startTime="70600" endTime="72050" palette="4"/>
-        <Effect ref="13" name="Morph" id="34" startTime="72050" endTime="73500" palette="4"/>
-        <Effect ref="13" name="Morph" id="35" startTime="219150" endTime="220075" palette="4"/>
-        <Effect ref="13" name="Morph" id="36" startTime="220075" endTime="222250" palette="4"/>
-        <Effect ref="13" name="Morph" id="37" startTime="222250" endTime="223100" palette="4"/>
-        <Effect ref="13" name="Morph" id="38" startTime="223100" endTime="232300" palette="10"/>
+        <Effect ref="17" name="Morph" startTime="750" endTime="1750" palette="3"/>
+        <Effect ref="17" name="Morph" id="1" startTime="1750" endTime="3600" palette="3"/>
+        <Effect ref="17" name="Morph" id="2" startTime="3600" endTime="4550" palette="3"/>
+        <Effect ref="17" name="Morph" id="3" startTime="4550" endTime="5500" palette="3"/>
+        <Effect ref="17" name="Morph" id="4" startTime="5500" endTime="6450" palette="3"/>
+        <Effect ref="17" name="Morph" id="5" startTime="6450" endTime="7400" palette="3"/>
+        <Effect ref="17" name="Morph" id="6" startTime="7400" endTime="9550" palette="3"/>
+        <Effect ref="17" name="Morph" id="7" startTime="9550" endTime="10800" palette="3"/>
+        <Effect ref="17" name="Morph" id="8" startTime="10800" endTime="11750" palette="3"/>
+        <Effect ref="17" name="Morph" id="9" startTime="11750" endTime="12750" palette="3"/>
+        <Effect ref="17" name="Morph" id="10" startTime="12750" endTime="14650" palette="3"/>
+        <Effect ref="17" name="Morph" id="11" startTime="14650" endTime="15350" palette="3"/>
+        <Effect ref="17" name="Morph" id="12" startTime="15350" endTime="16100" palette="3"/>
+        <Effect ref="17" name="Morph" id="13" startTime="16100" endTime="17550" palette="3"/>
+        <Effect ref="17" name="Morph" id="14" startTime="17550" endTime="18950" palette="3"/>
+        <Effect ref="17" name="Morph" id="15" startTime="18950" endTime="21050" palette="3"/>
+        <Effect ref="17" name="Morph" id="16" startTime="21050" endTime="21850" palette="3"/>
+        <Effect ref="17" name="Morph" id="17" startTime="21850" endTime="23300" palette="3"/>
+        <Effect ref="17" name="Morph" id="18" startTime="23300" endTime="24750" palette="3"/>
+        <Effect ref="17" name="Morph" id="19" startTime="24750" endTime="26750" palette="3"/>
+        <Effect ref="17" name="Morph" id="20" startTime="26750" endTime="27200" palette="3"/>
+        <Effect ref="17" name="Morph" id="21" startTime="27200" endTime="28150" palette="3"/>
+        <Effect ref="17" name="Morph" id="22" startTime="28150" endTime="29150" palette="3"/>
+        <Effect ref="17" name="Morph" id="23" startTime="29150" endTime="30100" palette="3"/>
+        <Effect ref="17" name="Morph" id="24" startTime="30100" endTime="32100" palette="3"/>
+        <Effect ref="17" name="Morph" id="25" startTime="32100" endTime="33300" palette="3"/>
+        <Effect ref="17" name="Morph" id="26" startTime="62600" endTime="63550" palette="3"/>
+        <Effect ref="17" name="Morph" id="27" startTime="63550" endTime="65400" palette="3"/>
+        <Effect ref="17" name="Morph" id="28" startTime="65400" endTime="65850" palette="3"/>
+        <Effect ref="17" name="Morph" id="29" startTime="65850" endTime="66725" palette="3"/>
+        <Effect ref="17" name="Morph" id="30" startTime="66725" endTime="67725" palette="3"/>
+        <Effect ref="17" name="Morph" id="31" startTime="67725" endTime="68700" palette="3"/>
+        <Effect ref="17" name="Morph" id="32" startTime="68700" endTime="70600" palette="3"/>
+        <Effect ref="17" name="Morph" id="33" startTime="70600" endTime="72050" palette="3"/>
+        <Effect ref="28" name="Morph" id="34" startTime="72050" endTime="73525" palette="3"/>
+        <Effect ref="28" name="Morph" id="35" startTime="73525" endTime="76400" palette="3"/>
+        <Effect ref="28" name="Morph" id="36" startTime="76400" endTime="77100" palette="3"/>
+        <Effect ref="28" name="Morph" id="37" startTime="77100" endTime="77850" palette="3"/>
+        <Effect ref="28" name="Morph" id="38" startTime="77850" endTime="78775" palette="3"/>
+        <Effect ref="28" name="Morph" id="39" startTime="78775" endTime="80750" palette="3"/>
+        <Effect ref="28" name="Morph" id="40" startTime="80750" endTime="82900" palette="3"/>
+        <Effect ref="28" name="Morph" id="41" startTime="82900" endTime="84100" palette="3"/>
+        <Effect ref="28" name="Morph" id="42" startTime="84100" endTime="85000" palette="3"/>
+        <Effect ref="28" name="Morph" id="43" startTime="85000" endTime="86000" palette="3"/>
+        <Effect ref="28" name="Morph" id="44" startTime="86000" endTime="87900" palette="3"/>
+        <Effect ref="28" name="Morph" id="45" startTime="87900" endTime="88550" palette="3"/>
+        <Effect ref="28" name="Morph" id="46" startTime="88550" endTime="89250" palette="3"/>
+        <Effect ref="28" name="Morph" id="47" startTime="89250" endTime="90250" palette="3"/>
+        <Effect ref="28" name="Morph" id="48" startTime="90250" endTime="91150" palette="3"/>
+        <Effect ref="28" name="Morph" id="49" startTime="91150" endTime="92100" palette="3"/>
+        <Effect ref="28" name="Morph" id="50" startTime="92100" endTime="94150" palette="3"/>
+        <Effect ref="17" name="Morph" id="51" startTime="219150" endTime="220075" palette="3"/>
+        <Effect ref="17" name="Morph" id="52" startTime="220075" endTime="222250" palette="3"/>
+        <Effect ref="17" name="Morph" id="53" startTime="222250" endTime="223100" palette="3"/>
+        <Effect ref="17" name="Morph" id="54" startTime="223100" endTime="232300" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Boscoyo ChromaCane 7">
       <EffectLayer>
-        <Effect ref="13" name="Morph" startTime="250" endTime="1250" palette="4"/>
-        <Effect ref="13" name="Morph" id="1" startTime="1250" endTime="3100" palette="4"/>
-        <Effect ref="13" name="Morph" id="2" startTime="3100" endTime="4050" palette="4"/>
-        <Effect ref="13" name="Morph" id="3" startTime="4050" endTime="5050" palette="4"/>
-        <Effect ref="13" name="Morph" id="4" startTime="5050" endTime="5950" palette="4"/>
-        <Effect ref="13" name="Morph" id="5" startTime="5950" endTime="6950" palette="4"/>
-        <Effect ref="13" name="Morph" id="6" startTime="6950" endTime="8850" palette="4"/>
-        <Effect ref="13" name="Morph" id="7" startTime="8850" endTime="10200" palette="4"/>
-        <Effect ref="13" name="Morph" id="8" startTime="10200" endTime="11250" palette="4"/>
-        <Effect ref="13" name="Morph" id="9" startTime="11250" endTime="12250" palette="4"/>
-        <Effect ref="13" name="Morph" id="10" startTime="12250" endTime="13200" palette="4"/>
-        <Effect ref="13" name="Morph" id="11" startTime="13200" endTime="15150" palette="4"/>
-        <Effect ref="13" name="Morph" id="12" startTime="15150" endTime="15600" palette="4"/>
-        <Effect ref="13" name="Morph" id="13" startTime="15600" endTime="16600" palette="4"/>
-        <Effect ref="13" name="Morph" id="14" startTime="16600" endTime="17950" palette="4"/>
-        <Effect ref="13" name="Morph" id="15" startTime="17950" endTime="20400" palette="4"/>
-        <Effect ref="13" name="Morph" id="16" startTime="20400" endTime="21350" palette="4"/>
-        <Effect ref="13" name="Morph" id="17" startTime="21350" endTime="22300" palette="4"/>
-        <Effect ref="13" name="Morph" id="18" startTime="22300" endTime="23800" palette="4"/>
-        <Effect ref="13" name="Morph" id="19" startTime="23800" endTime="26250" palette="4"/>
-        <Effect ref="13" name="Morph" id="20" startTime="26250" endTime="26950" palette="4"/>
-        <Effect ref="13" name="Morph" id="21" startTime="26950" endTime="27650" palette="4"/>
-        <Effect ref="13" name="Morph" id="22" startTime="27650" endTime="28650" palette="4"/>
-        <Effect ref="13" name="Morph" id="23" startTime="28650" endTime="29600" palette="4"/>
-        <Effect ref="13" name="Morph" id="24" startTime="29600" endTime="30600" palette="4"/>
-        <Effect ref="13" name="Morph" id="25" startTime="30600" endTime="32800" palette="4"/>
-        <Effect ref="13" name="Morph" id="26" startTime="62100" endTime="63100" palette="4"/>
-        <Effect ref="13" name="Morph" id="27" startTime="63100" endTime="64875" palette="4"/>
-        <Effect ref="13" name="Morph" id="28" startTime="64875" endTime="65600" palette="4"/>
-        <Effect ref="13" name="Morph" id="29" startTime="65600" endTime="66350" palette="4"/>
-        <Effect ref="13" name="Morph" id="30" startTime="66350" endTime="67225" palette="4"/>
-        <Effect ref="13" name="Morph" id="31" startTime="67225" endTime="68250" palette="4"/>
-        <Effect ref="13" name="Morph" id="32" startTime="68250" endTime="69200" palette="4"/>
-        <Effect ref="13" name="Morph" id="33" startTime="69200" endTime="71350" palette="4"/>
-        <Effect ref="13" name="Morph" id="34" startTime="71350" endTime="72525" palette="4"/>
-        <Effect ref="13" name="Morph" id="35" startTime="72525" endTime="73500" palette="4"/>
-        <Effect ref="13" name="Morph" id="36" startTime="218575" endTime="219575" palette="4"/>
-        <Effect ref="13" name="Morph" id="37" startTime="219575" endTime="221750" palette="4"/>
-        <Effect ref="13" name="Morph" id="38" startTime="221750" endTime="222600" palette="4"/>
-        <Effect ref="13" name="Morph" id="39" startTime="222600" endTime="224275" palette="4"/>
-        <Effect ref="13" name="Morph" id="40" startTime="224275" endTime="232150" palette="10"/>
+        <Effect ref="17" name="Morph" startTime="250" endTime="1250" palette="3"/>
+        <Effect ref="17" name="Morph" id="1" startTime="1250" endTime="3100" palette="3"/>
+        <Effect ref="17" name="Morph" id="2" startTime="3100" endTime="4050" palette="3"/>
+        <Effect ref="17" name="Morph" id="3" startTime="4050" endTime="5050" palette="3"/>
+        <Effect ref="17" name="Morph" id="4" startTime="5050" endTime="5950" palette="3"/>
+        <Effect ref="17" name="Morph" id="5" startTime="5950" endTime="6950" palette="3"/>
+        <Effect ref="17" name="Morph" id="6" startTime="6950" endTime="8850" palette="3"/>
+        <Effect ref="17" name="Morph" id="7" startTime="8850" endTime="10200" palette="3"/>
+        <Effect ref="17" name="Morph" id="8" startTime="10200" endTime="11250" palette="3"/>
+        <Effect ref="17" name="Morph" id="9" startTime="11250" endTime="12250" palette="3"/>
+        <Effect ref="17" name="Morph" id="10" startTime="12250" endTime="13200" palette="3"/>
+        <Effect ref="17" name="Morph" id="11" startTime="13200" endTime="15150" palette="3"/>
+        <Effect ref="17" name="Morph" id="12" startTime="15150" endTime="15600" palette="3"/>
+        <Effect ref="17" name="Morph" id="13" startTime="15600" endTime="16600" palette="3"/>
+        <Effect ref="17" name="Morph" id="14" startTime="16600" endTime="17950" palette="3"/>
+        <Effect ref="17" name="Morph" id="15" startTime="17950" endTime="20400" palette="3"/>
+        <Effect ref="17" name="Morph" id="16" startTime="20400" endTime="21350" palette="3"/>
+        <Effect ref="17" name="Morph" id="17" startTime="21350" endTime="22300" palette="3"/>
+        <Effect ref="17" name="Morph" id="18" startTime="22300" endTime="23800" palette="3"/>
+        <Effect ref="17" name="Morph" id="19" startTime="23800" endTime="26250" palette="3"/>
+        <Effect ref="17" name="Morph" id="20" startTime="26250" endTime="26950" palette="3"/>
+        <Effect ref="17" name="Morph" id="21" startTime="26950" endTime="27650" palette="3"/>
+        <Effect ref="17" name="Morph" id="22" startTime="27650" endTime="28650" palette="3"/>
+        <Effect ref="17" name="Morph" id="23" startTime="28650" endTime="29600" palette="3"/>
+        <Effect ref="17" name="Morph" id="24" startTime="29600" endTime="30600" palette="3"/>
+        <Effect ref="17" name="Morph" id="25" startTime="30600" endTime="32800" palette="3"/>
+        <Effect ref="17" name="Morph" id="26" startTime="62100" endTime="63100" palette="3"/>
+        <Effect ref="17" name="Morph" id="27" startTime="63100" endTime="64875" palette="3"/>
+        <Effect ref="17" name="Morph" id="28" startTime="64875" endTime="65600" palette="3"/>
+        <Effect ref="17" name="Morph" id="29" startTime="65600" endTime="66350" palette="3"/>
+        <Effect ref="17" name="Morph" id="30" startTime="66350" endTime="67225" palette="3"/>
+        <Effect ref="17" name="Morph" id="31" startTime="67225" endTime="68250" palette="3"/>
+        <Effect ref="17" name="Morph" id="32" startTime="68250" endTime="69200" palette="3"/>
+        <Effect ref="17" name="Morph" id="33" startTime="69200" endTime="71350" palette="3"/>
+        <Effect ref="17" name="Morph" id="34" startTime="71350" endTime="72525" palette="3"/>
+        <Effect ref="28" name="Morph" id="35" startTime="72525" endTime="75000" palette="3"/>
+        <Effect ref="28" name="Morph" id="36" startTime="75000" endTime="76900" palette="3"/>
+        <Effect ref="28" name="Morph" id="37" startTime="76900" endTime="77350" palette="3"/>
+        <Effect ref="28" name="Morph" id="38" startTime="77350" endTime="78375" palette="3"/>
+        <Effect ref="28" name="Morph" id="39" startTime="78375" endTime="79300" palette="3"/>
+        <Effect ref="28" name="Morph" id="40" startTime="79300" endTime="82150" palette="3"/>
+        <Effect ref="28" name="Morph" id="41" startTime="82150" endTime="83625" palette="3"/>
+        <Effect ref="28" name="Morph" id="42" startTime="83625" endTime="84600" palette="3"/>
+        <Effect ref="28" name="Morph" id="43" startTime="84600" endTime="85500" palette="3"/>
+        <Effect ref="28" name="Morph" id="44" startTime="85500" endTime="86450" palette="3"/>
+        <Effect ref="28" name="Morph" id="45" startTime="86450" endTime="88400" palette="3"/>
+        <Effect ref="28" name="Morph" id="46" startTime="88400" endTime="88800" palette="3"/>
+        <Effect ref="28" name="Morph" id="47" startTime="88800" endTime="89750" palette="3"/>
+        <Effect ref="28" name="Morph" id="48" startTime="89750" endTime="90700" palette="3"/>
+        <Effect ref="28" name="Morph" id="49" startTime="90700" endTime="91650" palette="3"/>
+        <Effect ref="28" name="Morph" id="50" startTime="91650" endTime="93500" palette="3"/>
+        <Effect ref="28" name="Morph" id="51" startTime="93500" endTime="94750" palette="3"/>
+        <Effect ref="17" name="Morph" id="52" startTime="218575" endTime="219575" palette="3"/>
+        <Effect ref="17" name="Morph" id="53" startTime="219575" endTime="221750" palette="3"/>
+        <Effect ref="17" name="Morph" id="54" startTime="221750" endTime="222600" palette="3"/>
+        <Effect ref="17" name="Morph" id="55" startTime="222600" endTime="224275" palette="3"/>
+        <Effect ref="17" name="Morph" id="56" startTime="224275" endTime="232150" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Boscoyo ChromaCane 8">
       <EffectLayer>
-        <Effect ref="13" name="Morph" startTime="250" endTime="1250" palette="4"/>
-        <Effect ref="13" name="Morph" id="1" startTime="1250" endTime="3100" palette="4"/>
-        <Effect ref="13" name="Morph" id="2" startTime="3100" endTime="4050" palette="4"/>
-        <Effect ref="13" name="Morph" id="3" startTime="4050" endTime="5050" palette="4"/>
-        <Effect ref="13" name="Morph" id="4" startTime="5050" endTime="5950" palette="4"/>
-        <Effect ref="13" name="Morph" id="5" startTime="5950" endTime="6950" palette="4"/>
-        <Effect ref="13" name="Morph" id="6" startTime="6950" endTime="8850" palette="4"/>
-        <Effect ref="13" name="Morph" id="7" startTime="8850" endTime="10200" palette="4"/>
-        <Effect ref="13" name="Morph" id="8" startTime="10200" endTime="11250" palette="4"/>
-        <Effect ref="13" name="Morph" id="9" startTime="11250" endTime="12250" palette="4"/>
-        <Effect ref="13" name="Morph" id="10" startTime="12250" endTime="13200" palette="4"/>
-        <Effect ref="13" name="Morph" id="11" startTime="13200" endTime="15150" palette="4"/>
-        <Effect ref="13" name="Morph" id="12" startTime="15150" endTime="15600" palette="4"/>
-        <Effect ref="13" name="Morph" id="13" startTime="15600" endTime="16600" palette="4"/>
-        <Effect ref="13" name="Morph" id="14" startTime="16600" endTime="17950" palette="4"/>
-        <Effect ref="13" name="Morph" id="15" startTime="17950" endTime="20400" palette="4"/>
-        <Effect ref="13" name="Morph" id="16" startTime="20400" endTime="21350" palette="4"/>
-        <Effect ref="13" name="Morph" id="17" startTime="21350" endTime="22300" palette="4"/>
-        <Effect ref="13" name="Morph" id="18" startTime="22300" endTime="23800" palette="4"/>
-        <Effect ref="13" name="Morph" id="19" startTime="23800" endTime="26250" palette="4"/>
-        <Effect ref="13" name="Morph" id="20" startTime="26250" endTime="26950" palette="4"/>
-        <Effect ref="13" name="Morph" id="21" startTime="26950" endTime="27650" palette="4"/>
-        <Effect ref="13" name="Morph" id="22" startTime="27650" endTime="28650" palette="4"/>
-        <Effect ref="13" name="Morph" id="23" startTime="28650" endTime="29600" palette="4"/>
-        <Effect ref="13" name="Morph" id="24" startTime="29600" endTime="30600" palette="4"/>
-        <Effect ref="13" name="Morph" id="25" startTime="30600" endTime="32800" palette="4"/>
-        <Effect ref="13" name="Morph" id="26" startTime="62100" endTime="63100" palette="4"/>
-        <Effect ref="13" name="Morph" id="27" startTime="63100" endTime="64875" palette="4"/>
-        <Effect ref="13" name="Morph" id="28" startTime="64875" endTime="65600" palette="4"/>
-        <Effect ref="13" name="Morph" id="29" startTime="65600" endTime="66350" palette="4"/>
-        <Effect ref="13" name="Morph" id="30" startTime="66350" endTime="67225" palette="4"/>
-        <Effect ref="13" name="Morph" id="31" startTime="67225" endTime="68250" palette="4"/>
-        <Effect ref="13" name="Morph" id="32" startTime="68250" endTime="69200" palette="4"/>
-        <Effect ref="13" name="Morph" id="33" startTime="69200" endTime="71350" palette="4"/>
-        <Effect ref="13" name="Morph" id="34" startTime="71350" endTime="72525" palette="4"/>
-        <Effect ref="13" name="Morph" id="35" startTime="72525" endTime="73500" palette="4"/>
-        <Effect ref="13" name="Morph" id="36" startTime="218575" endTime="219575" palette="4"/>
-        <Effect ref="13" name="Morph" id="37" startTime="219575" endTime="221750" palette="4"/>
-        <Effect ref="13" name="Morph" id="38" startTime="221750" endTime="222600" palette="4"/>
-        <Effect ref="13" name="Morph" id="39" startTime="222600" endTime="224275" palette="4"/>
-        <Effect ref="13" name="Morph" id="40" startTime="224275" endTime="232150" palette="10"/>
+        <Effect ref="17" name="Morph" startTime="250" endTime="1250" palette="3"/>
+        <Effect ref="17" name="Morph" id="1" startTime="1250" endTime="3100" palette="3"/>
+        <Effect ref="17" name="Morph" id="2" startTime="3100" endTime="4050" palette="3"/>
+        <Effect ref="17" name="Morph" id="3" startTime="4050" endTime="5050" palette="3"/>
+        <Effect ref="17" name="Morph" id="4" startTime="5050" endTime="5950" palette="3"/>
+        <Effect ref="17" name="Morph" id="5" startTime="5950" endTime="6950" palette="3"/>
+        <Effect ref="17" name="Morph" id="6" startTime="6950" endTime="8850" palette="3"/>
+        <Effect ref="17" name="Morph" id="7" startTime="8850" endTime="10200" palette="3"/>
+        <Effect ref="17" name="Morph" id="8" startTime="10200" endTime="11250" palette="3"/>
+        <Effect ref="17" name="Morph" id="9" startTime="11250" endTime="12250" palette="3"/>
+        <Effect ref="17" name="Morph" id="10" startTime="12250" endTime="13200" palette="3"/>
+        <Effect ref="17" name="Morph" id="11" startTime="13200" endTime="15150" palette="3"/>
+        <Effect ref="17" name="Morph" id="12" startTime="15150" endTime="15600" palette="3"/>
+        <Effect ref="17" name="Morph" id="13" startTime="15600" endTime="16600" palette="3"/>
+        <Effect ref="17" name="Morph" id="14" startTime="16600" endTime="17950" palette="3"/>
+        <Effect ref="17" name="Morph" id="15" startTime="17950" endTime="20400" palette="3"/>
+        <Effect ref="17" name="Morph" id="16" startTime="20400" endTime="21350" palette="3"/>
+        <Effect ref="17" name="Morph" id="17" startTime="21350" endTime="22300" palette="3"/>
+        <Effect ref="17" name="Morph" id="18" startTime="22300" endTime="23800" palette="3"/>
+        <Effect ref="17" name="Morph" id="19" startTime="23800" endTime="26250" palette="3"/>
+        <Effect ref="17" name="Morph" id="20" startTime="26250" endTime="26950" palette="3"/>
+        <Effect ref="17" name="Morph" id="21" startTime="26950" endTime="27650" palette="3"/>
+        <Effect ref="17" name="Morph" id="22" startTime="27650" endTime="28650" palette="3"/>
+        <Effect ref="17" name="Morph" id="23" startTime="28650" endTime="29600" palette="3"/>
+        <Effect ref="17" name="Morph" id="24" startTime="29600" endTime="30600" palette="3"/>
+        <Effect ref="28" name="Morph" id="25" startTime="30600" endTime="32800" palette="3"/>
+        <Effect ref="17" name="Morph" id="26" startTime="62100" endTime="63100" palette="3"/>
+        <Effect ref="17" name="Morph" id="27" startTime="63100" endTime="64875" palette="3"/>
+        <Effect ref="17" name="Morph" id="28" startTime="64875" endTime="65600" palette="3"/>
+        <Effect ref="17" name="Morph" id="29" startTime="65600" endTime="66350" palette="3"/>
+        <Effect ref="17" name="Morph" id="30" startTime="66350" endTime="67225" palette="3"/>
+        <Effect ref="17" name="Morph" id="31" startTime="67225" endTime="68250" palette="3"/>
+        <Effect ref="17" name="Morph" id="32" startTime="68250" endTime="69200" palette="3"/>
+        <Effect ref="17" name="Morph" id="33" startTime="69200" endTime="71350" palette="3"/>
+        <Effect ref="17" name="Morph" id="34" startTime="71350" endTime="72525" palette="3"/>
+        <Effect ref="28" name="Morph" id="35" startTime="72525" endTime="75000" palette="3"/>
+        <Effect ref="28" name="Morph" id="36" startTime="75000" endTime="76900" palette="3"/>
+        <Effect ref="28" name="Morph" id="37" startTime="76900" endTime="77350" palette="3"/>
+        <Effect ref="28" name="Morph" id="38" startTime="77350" endTime="78375" palette="3"/>
+        <Effect ref="28" name="Morph" id="39" startTime="78375" endTime="79300" palette="3"/>
+        <Effect ref="28" name="Morph" id="40" startTime="79300" endTime="82150" palette="3"/>
+        <Effect ref="28" name="Morph" id="41" startTime="82150" endTime="83625" palette="3"/>
+        <Effect ref="28" name="Morph" id="42" startTime="83625" endTime="84600" palette="3"/>
+        <Effect ref="28" name="Morph" id="43" startTime="84600" endTime="85500" palette="3"/>
+        <Effect ref="28" name="Morph" id="44" startTime="85500" endTime="86450" palette="3"/>
+        <Effect ref="28" name="Morph" id="45" startTime="86450" endTime="88400" palette="3"/>
+        <Effect ref="28" name="Morph" id="46" startTime="88400" endTime="88800" palette="3"/>
+        <Effect ref="28" name="Morph" id="47" startTime="88800" endTime="89750" palette="3"/>
+        <Effect ref="28" name="Morph" id="48" startTime="89750" endTime="90700" palette="3"/>
+        <Effect ref="28" name="Morph" id="49" startTime="90700" endTime="91650" palette="3"/>
+        <Effect ref="28" name="Morph" id="50" startTime="91650" endTime="93500" palette="3"/>
+        <Effect ref="28" name="Morph" id="51" startTime="93500" endTime="94750" palette="3"/>
+        <Effect ref="17" name="Morph" id="52" startTime="218575" endTime="219575" palette="3"/>
+        <Effect ref="17" name="Morph" id="53" startTime="219575" endTime="221750" palette="3"/>
+        <Effect ref="17" name="Morph" id="54" startTime="221750" endTime="222600" palette="3"/>
+        <Effect ref="17" name="Morph" id="55" startTime="222600" endTime="224275" palette="3"/>
+        <Effect ref="17" name="Morph" id="56" startTime="224275" endTime="232150" palette="9"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="18072 Pixels">
+      <EffectLayer>
+        <Effect ref="21" name="Color Wash" startTime="11600" endTime="17200" palette="10"/>
+        <Effect ref="2" name="Color Wash" id="1" startTime="17200" endTime="23050" palette="11"/>
+        <Effect ref="2" name="Color Wash" id="2" startTime="23050" endTime="28650" palette="12"/>
+        <Effect ref="2" name="Color Wash" id="3" startTime="28650" endTime="35700" palette="13"/>
+        <Effect ref="22" name="On" id="4" startTime="35700" endTime="38650" palette="14"/>
+        <Effect ref="29" name="SingleStrand" id="5" startTime="39250" endTime="40700" palette="1"/>
+        <Effect ref="23" name="SingleStrand" id="6" startTime="40700" endTime="42200" palette="1"/>
+        <Effect ref="29" name="SingleStrand" id="7" startTime="42200" endTime="43600" palette="1"/>
+        <Effect ref="23" name="SingleStrand" id="8" startTime="43600" endTime="45050" palette="1"/>
+        <Effect ref="29" name="SingleStrand" id="9" startTime="45050" endTime="46500" palette="1"/>
+        <Effect ref="23" name="SingleStrand" id="10" startTime="46500" endTime="48000" palette="1"/>
+        <Effect ref="29" name="SingleStrand" id="11" startTime="48000" endTime="49500" palette="1"/>
+        <Effect ref="23" name="SingleStrand" id="12" startTime="49500" endTime="50950" palette="1"/>
+        <Effect ref="29" name="SingleStrand" id="13" startTime="50950" endTime="52350" palette="1"/>
+        <Effect ref="23" name="SingleStrand" id="14" startTime="52350" endTime="53850" palette="1"/>
+        <Effect ref="29" name="SingleStrand" id="15" startTime="53850" endTime="55300" palette="1"/>
+        <Effect ref="23" name="SingleStrand" id="16" startTime="55300" endTime="56800" palette="1"/>
+        <Effect ref="29" name="SingleStrand" id="17" startTime="56800" endTime="58200" palette="1"/>
+        <Effect ref="23" name="SingleStrand" id="18" startTime="58200" endTime="59800" palette="1"/>
+        <Effect ref="29" name="SingleStrand" id="19" startTime="59800" endTime="60750" palette="1"/>
+        <Effect ref="23" name="SingleStrand" id="20" startTime="60750" endTime="62100" palette="1"/>
+        <Effect ref="30" name="Butterfly" id="21" startTime="62100" endTime="73200" palette="3"/>
+        <Effect ref="10" name="Color Wash" id="22" startTime="73248" endTime="79121" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="23" startTime="79121" endTime="84800" palette="4"/>
+        <Effect ref="2" name="Color Wash" id="24" startTime="84800" endTime="90596" palette="5"/>
+        <Effect ref="2" name="Color Wash" id="25" startTime="90596" endTime="97429" palette="6"/>
+        <Effect ref="2" name="Color Wash" id="26" startTime="97429" endTime="102945" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="27" startTime="102945" endTime="105670" palette="7"/>
+        <Effect ref="2" name="Color Wash" id="28" startTime="105670" endTime="108820" palette="6"/>
+        <Effect ref="2" name="Color Wash" id="29" startTime="108820" endTime="111546" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="30" startTime="111546" endTime="114689" palette="7"/>
+        <Effect ref="2" name="Color Wash" id="31" startTime="114689" endTime="117580" palette="6"/>
+        <Effect ref="2" name="Color Wash" id="32" startTime="117580" endTime="120600" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="33" startTime="120600" endTime="125744" palette="7"/>
+        <Effect ref="0" name="On" id="34" startTime="125744" endTime="129850" palette="8"/>
+        <Effect ref="27" name="SingleStrand" id="35" startTime="131350" endTime="135700" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="36" startTime="137250" endTime="141500" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="37" startTime="143000" endTime="147300" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="38" startTime="150175" endTime="153100" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="39" startTime="156000" endTime="158775" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="40" startTime="161650" endTime="164500" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="41" startTime="167400" endTime="170250" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="42" startTime="173150" endTime="175950" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="43" startTime="178800" endTime="181650" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="44" startTime="184475" endTime="187350" palette="15"/>
+        <Effect ref="27" name="SingleStrand" id="45" startTime="188775" endTime="190200" palette="15"/>
+        <Effect ref="2" name="Color Wash" id="46" startTime="190200" endTime="190675" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="47" startTime="190675" endTime="191150" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="48" startTime="191150" endTime="191600" palette="3"/>
+        <Effect ref="20" name="Color Wash" id="49" startTime="191600" endTime="193050" palette="3"/>
+        <Effect ref="10" name="Color Wash" id="50" startTime="193050" endTime="195436" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="51" startTime="195436" endTime="198081" palette="4"/>
+        <Effect ref="2" name="Color Wash" id="52" startTime="198081" endTime="201280" palette="5"/>
+        <Effect ref="2" name="Color Wash" id="53" startTime="201280" endTime="203848" palette="6"/>
+        <Effect ref="2" name="Color Wash" id="54" startTime="203848" endTime="207248" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="55" startTime="207248" endTime="209973" palette="7"/>
+        <Effect ref="2" name="Color Wash" id="56" startTime="209973" endTime="213395" palette="6"/>
+        <Effect ref="11" name="Color Wash" id="57" startTime="213395" endTime="218575" palette="3"/>
+        <Effect ref="31" name="Color Wash" selected="1" id="58" startTime="224275" endTime="232000" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Neighbor">
+      <EffectLayer>
+        <Effect ref="1" name="Curtain" startTime="33300" endTime="35700" palette="1"/>
+        <Effect ref="2" name="On" id="1" startTime="35700" endTime="62100" palette="1"/>
+        <Effect ref="0" name="On" id="2" startTime="62100" endTime="73525" palette="1"/>
+        <Effect ref="3" name="Curtain" id="3" startTime="94750" endTime="100575" palette="1"/>
+        <Effect ref="2" name="On" id="4" startTime="100575" endTime="106500" palette="2"/>
+        <Effect ref="2" name="On" id="5" startTime="106500" endTime="125800" palette="2"/>
+        <Effect ref="7" name="On" id="6" startTime="125800" endTime="129850" palette="2"/>
+        <Effect ref="32" name="On" id="7" startTime="129850" endTime="131350" palette="2"/>
+        <Effect ref="33" name="On" id="8" startTime="131350" endTime="135700" palette="2"/>
+        <Effect ref="32" name="On" id="9" startTime="135700" endTime="137250" palette="2"/>
+        <Effect ref="33" name="On" id="10" startTime="137250" endTime="141500" palette="2"/>
+        <Effect ref="32" name="On" id="11" startTime="141500" endTime="143000" palette="2"/>
+        <Effect ref="33" name="On" id="12" startTime="143000" endTime="147300" palette="2"/>
+        <Effect ref="32" name="On" id="13" startTime="147300" endTime="150175" palette="2"/>
+        <Effect ref="33" name="On" id="14" startTime="150175" endTime="153100" palette="2"/>
+        <Effect ref="32" name="On" id="15" startTime="153100" endTime="156000" palette="2"/>
+        <Effect ref="33" name="On" id="16" startTime="156000" endTime="158775" palette="2"/>
+        <Effect ref="32" name="On" id="17" startTime="158775" endTime="161650" palette="2"/>
+        <Effect ref="33" name="On" id="18" startTime="161650" endTime="164500" palette="2"/>
+        <Effect ref="32" name="On" id="19" startTime="164500" endTime="167400" palette="2"/>
+        <Effect ref="33" name="On" id="20" startTime="167400" endTime="170250" palette="2"/>
+        <Effect ref="32" name="On" id="21" startTime="170250" endTime="173150" palette="2"/>
+        <Effect ref="33" name="On" id="22" startTime="173150" endTime="175950" palette="2"/>
+        <Effect ref="32" name="On" id="23" startTime="175950" endTime="178800" palette="2"/>
+        <Effect ref="33" name="On" id="24" startTime="178800" endTime="181650" palette="2"/>
+        <Effect ref="32" name="On" id="25" startTime="181650" endTime="184475" palette="2"/>
+        <Effect ref="33" name="On" id="26" startTime="184475" endTime="187350" palette="2"/>
+        <Effect ref="32" name="On" id="27" startTime="187350" endTime="188775" palette="2"/>
+        <Effect ref="33" name="On" id="28" startTime="188775" endTime="190200" palette="2"/>
+        <Effect ref="32" name="On" id="29" startTime="190200" endTime="190675" palette="2"/>
+        <Effect ref="32" name="On" id="30" startTime="190675" endTime="191150" palette="2"/>
+        <Effect ref="32" name="On" id="31" startTime="191150" endTime="191600" palette="2"/>
+        <Effect ref="34" name="On" id="32" startTime="191600" endTime="193050" palette="2"/>
+        <Effect ref="2" name="On" id="33" startTime="193050" endTime="201825" palette="2"/>
+        <Effect ref="2" name="On" id="34" startTime="201825" endTime="217825" palette="2"/>
+        <Effect ref="7" name="On" id="35" startTime="217825" endTime="220075" palette="2"/>
       </EffectLayer>
     </Element>
   </ElementEffects>

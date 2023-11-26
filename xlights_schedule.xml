@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xSchedule computer="lightingconsole">
+  <schedule schedstart="2017-01-02" schedend="2017-01-02"/>
+  <playlists>
+    <playlist name="indoor" Audio="0" Video="0" xLights="1" MovieMode="0">
+      <listitem name="VPPL_Disco_Santa_Claus_Noel.fseq" delay="0"/>
+    </playlist>
+  </playlists>
+</xSchedule>
